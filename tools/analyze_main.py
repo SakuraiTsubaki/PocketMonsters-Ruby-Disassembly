@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Map the symbolized main.c startup region for verified Pokémon Ruby ROMs.
+"""Map and fingerprint the symbolized main.c startup region in Pokémon Ruby.
 
-This tool never writes ROM data. It verifies each local ROM against
-manifests/source_roms.json, then emits function boundaries, hashes, and
-addresses for the AgbMain..ClearPokemonCrySongs region.
+The tool never writes ROM data. It verifies each local source ROM against
+manifests/source_roms.json and then regenerates the compact Phase 2 manifest
+and symbol-layout/target CSVs checked into the repository.
 """
 
 from __future__ import annotations
@@ -68,6 +68,11 @@ JAPAN_LAYOUT = [
     ("__next_object_start", 0x500),
 ]
 
+LAYOUTS = {
+    "japan": JAPAN_LAYOUT,
+    "international": INTERNATIONAL_LAYOUT,
+}
+
 
 def sha1(data: bytes) -> str:
     return hashlib.sha1(data).hexdigest()
@@ -81,13 +86,41 @@ def parse_hex(value: str) -> int:
     return int(value, 16)
 
 
+def layout_records(layout):
+    return [
+        [name, hex(rel), next_rel - rel]
+        for (name, rel), (_, next_rel) in zip(layout, layout[1:])
+    ]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--rom-dir", type=Path, required=True)
-    parser.add_argument("--source-manifest", type=Path, default=Path("manifests/source_roms.json"))
-    parser.add_argument("--startup-manifest", type=Path, default=Path("manifests/startup_phase2.json"))
-    parser.add_argument("--out-manifest", type=Path, default=Path("manifests/main_phase2.json"))
-    parser.add_argument("--out-symbols", type=Path, default=Path("symbols/main_symbols.csv"))
+    parser.add_argument(
+        "--source-manifest",
+        type=Path,
+        default=Path("manifests/source_roms.json"),
+    )
+    parser.add_argument(
+        "--startup-manifest",
+        type=Path,
+        default=Path("manifests/startup_phase2.json"),
+    )
+    parser.add_argument(
+        "--out-manifest",
+        type=Path,
+        default=Path("manifests/main_phase2.json"),
+    )
+    parser.add_argument(
+        "--out-layouts",
+        type=Path,
+        default=Path("symbols/main_layouts.csv"),
+    )
+    parser.add_argument(
+        "--out-targets",
+        type=Path,
+        default=Path("symbols/main_targets.csv"),
+    )
     parser.add_argument("--verify-only", action="store_true")
     args = parser.parse_args()
 
@@ -95,13 +128,19 @@ def main() -> int:
     startup = load_json(args.startup_manifest)
     source_by_id = {row["id"]: row for row in source["roms"]}
 
+    symbols = [name for name, _ in INTERNATIONAL_LAYOUT[:-1]]
     result = {
         "schema_version": 1,
-        "scope": "main.c symbolized reconstruction from AgbMain through ClearPokemonCrySongs",
+        "scope": "main.c AgbMain through ClearPokemonCrySongs",
         "address_base": f"0x{ROM_BASE:08X}",
+        "symbols": symbols,
+        "layouts": {
+            family: layout_records(layout)
+            for family, layout in LAYOUTS.items()
+        },
         "targets": {},
     }
-    csv_rows = []
+    target_rows = []
 
     for target_id, start_info in startup["targets"].items():
         src = source_by_id[target_id]
@@ -114,77 +153,72 @@ def main() -> int:
                 f"{target_id}: SHA-1 mismatch: expected {src['sha1']}, got {actual_sha1}"
             )
 
-        agbmain = parse_hex(start_info["agbmain_offset"])
         family = "japan" if target_id == "japan_rev0" else "international"
-        layout = JAPAN_LAYOUT if family == "japan" else INTERNATIONAL_LAYOUT
-
-        functions = []
-        for (name, rel), (_, next_rel) in zip(layout, layout[1:]):
-            start = agbmain + rel
-            end = agbmain + next_rel
-            chunk = data[start:end]
-            entry = {
-                "symbol": name,
-                "file_offset": f"0x{start:X}",
-                "address": f"0x{ROM_BASE + start:08X}",
-                "thumb_address": f"0x{ROM_BASE + start + 1:08X}",
-                "size": len(chunk),
-                "sha1": sha1(chunk),
-            }
-            functions.append(entry)
-            csv_rows.append(
-                [
-                    target_id,
-                    family,
-                    name,
-                    entry["file_offset"],
-                    entry["address"],
-                    entry["thumb_address"],
-                    entry["size"],
-                    entry["sha1"],
-                ]
-            )
-
+        layout = LAYOUTS[family]
+        agbmain = parse_hex(start_info["agbmain_offset"])
         region_end = agbmain + layout[-1][1]
         region = data[agbmain:region_end]
-        result["targets"][target_id] = {
-            "family": family,
-            "agbmain_offset": f"0x{agbmain:X}",
-            "main_region_end_offset": f"0x{region_end:X}",
-            "main_region_size": len(region),
-            "main_region_sha1": sha1(region),
-            "functions": functions,
-        }
+
+        function_hashes = []
+        for (_, rel), (_, next_rel) in zip(layout, layout[1:]):
+            function_hashes.append(sha1(data[agbmain + rel : agbmain + next_rel]))
+
+        region_hash = sha1(region)
+        result["targets"][target_id] = [
+            family,
+            f"0x{agbmain:X}",
+            f"0x{region_end:X}",
+            len(region),
+            region_hash,
+            function_hashes,
+        ]
+        target_rows.append(
+            [
+                target_id,
+                family,
+                f"0x{agbmain:X}",
+                f"0x{region_end:X}",
+                len(region),
+                region_hash,
+            ]
+        )
 
     if args.verify_only:
         print(f"verified {len(result['targets'])} targets")
         return 0
 
-    args.out_manifest.parent.mkdir(parents=True, exist_ok=True)
-    args.out_symbols.parent.mkdir(parents=True, exist_ok=True)
+    for path in (args.out_manifest, args.out_layouts, args.out_targets):
+        path.parent.mkdir(parents=True, exist_ok=True)
 
     args.out_manifest.write_text(
-        json.dumps(result, indent=2) + "\n", encoding="utf-8"
+        json.dumps(result, separators=(",", ":")) + "\n",
+        encoding="utf-8",
     )
 
-    with args.out_symbols.open("w", encoding="utf-8", newline="") as fp:
+    with args.out_layouts.open("w", encoding="utf-8", newline="") as fp:
+        writer = csv.writer(fp, lineterminator="\n")
+        writer.writerow(["family", "symbol", "relative_offset", "size"])
+        for family, layout in LAYOUTS.items():
+            for symbol, relative_offset, size in layout_records(layout):
+                writer.writerow([family, symbol, f"0x{int(relative_offset, 16):X}", size])
+
+    with args.out_targets.open("w", encoding="utf-8", newline="") as fp:
         writer = csv.writer(fp, lineterminator="\n")
         writer.writerow(
             [
                 "target",
                 "family",
-                "symbol",
-                "file_offset",
-                "address",
-                "thumb_address",
-                "size",
-                "sha1",
+                "agbmain_offset",
+                "main_region_end_offset",
+                "main_region_size",
+                "main_region_sha1",
             ]
         )
-        writer.writerows(csv_rows)
+        writer.writerows(target_rows)
 
     print(f"wrote {args.out_manifest}")
-    print(f"wrote {args.out_symbols}")
+    print(f"wrote {args.out_layouts}")
+    print(f"wrote {args.out_targets}")
     return 0
 
 
