@@ -90,4 +90,17 @@ Until a version reaches a fully reconstructed state, its manifest should clearly
 
 ## Status
 
-Repository initialized. Source-ROM inventory, hashes, ROM layout analysis, and reconstruction manifests are the first implementation stage.
+### Phase 1 — source ROM inventory and structural survey ✅
+
+- 13 source-ROM targets identified and hash-verified in `manifests/source_roms.json`.
+- GBA headers and initial entry branches verified for every target.
+- Large filler/data-island boundaries surveyed.
+- Adjacent retail revisions compared byte-for-byte.
+- Berry-glitch revision patch identified at Thumb-instruction level.
+- English Rev 0/Rev 1 and German retail/debug established as distinct large-scale layout targets.
+- Reproducible analyzer added at `tools/analyze_roms.py`.
+- Results documented in `docs/ROM_STRUCTURE_PHASE1.md` and `manifests/rom_structure_phase1.json`.
+
+### Phase 2 — symbolized reconstruction 🚧
+
+Next: reconstruct and verify startup/CRT first, then progressively map engine code, data, text/scripts, maps, sound, and graphics while retaining per-version provenance and round-trip checks.
