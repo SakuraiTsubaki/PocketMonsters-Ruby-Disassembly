@@ -105,8 +105,10 @@ Until a version reaches a fully reconstructed state, its manifest should clearly
 
 - Startup/CRT anchors (`Start`, `Init`, `IntrMain`, `AgbMain`) mapped for all 13 targets.
 - The full `main.c` startup/interrupt core from `AgbMain` through `ClearPokemonCrySongs` is boundary-mapped and fingerprinted: 22 functions × 13 targets = 286 verified function records.
-- Japanese and international compiler-layout families are represented separately in `symbols/main_layouts.csv`; per-target region fingerprints are in `symbols/main_targets.csv`; all per-function hashes are retained in `manifests/main_phase2.json`.
-- `tools/analyze_main.py` regenerates the Phase 2 main artifacts after whole-ROM SHA-1 verification.
-- The next linked object is confirmed as `sprite.o`; `ResetSpriteData` begins immediately after the mapped `main.c` region.
+- The next linked object is confirmed as `sprite.o`; `ResetSpriteData` starts immediately after `main.o`.
+- Sprite Part 1 maps `ResetSpriteData` through `ContinueAnim`: 493 target/function records. Three layout families are required (`retail_intl`, `japan`, `german_debug`).
+- Sprite Part 2 maps `AnimCmd_frame` through `InitSpriteAffineAnim`: 42 functions × 13 targets = 546 target/function records. All targets share one common function-size layout in this block.
+- The contiguous mapped `sprite.o` prefix now reaches `SetOamMatrixRotationScaling`: `0x19F8` bytes in Japan, `0x1AE0` bytes in retail international builds, and `0x1AF8` bytes in German Debug.
+- Reproducible analyzers and exact layouts/region fingerprints are stored under `tools/`, `symbols/`, and `docs/SPRITE_PHASE2_PART*.md`.
 
-Current work: expand symbolization through the `sprite.c` engine, then continue into `text`, `string_util`, `link`, and `rtc`. Graphics/sprite assets will be restored separately as human-viewable PNGs plus rebuildable source data when asset extraction begins.
+Current work: continue `sprite.c` at `SetOamMatrixRotationScaling`, then map sprite sheet/tile allocation, palette management, subsprites/OAM construction, and the remainder of `sprite.o` before moving into `text`, `string_util`, `link`, and `rtc`. Graphics/sprite assets will be restored separately as human-viewable PNGs plus rebuildable source data when visual asset extraction begins.
