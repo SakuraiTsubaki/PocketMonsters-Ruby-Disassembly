@@ -1,0 +1,43 @@
+# Generated ROM images
+*.gba
+*.agb
+
+# Other generated binary outputs
+*.elf
+*.map
+*.sym
+*.o
+*.obj
+*.a
+*.d
+
+# Build directories
+build/
+build-*/
+out/
+dist/
+
+# Local source ROM/reference material
+baserom*
+source_roms/
+roms/
+reference_roms/
+
+# Tool caches and local environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+.cache/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
