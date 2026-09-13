@@ -103,4 +103,10 @@ Until a version reaches a fully reconstructed state, its manifest should clearly
 
 ### Phase 2 — symbolized reconstruction 🚧
 
-Next: reconstruct and verify startup/CRT first, then progressively map engine code, data, text/scripts, maps, sound, and graphics while retaining per-version provenance and round-trip checks.
+- Startup/CRT anchors (`Start`, `Init`, `IntrMain`, `AgbMain`) mapped for all 13 targets.
+- The full `main.c` startup/interrupt core from `AgbMain` through `ClearPokemonCrySongs` is boundary-mapped and fingerprinted: 22 functions × 13 targets = 286 verified function records.
+- Japanese and international compiler-layout families are represented separately in `symbols/main_layouts.csv`; per-target region fingerprints are in `symbols/main_targets.csv`; all per-function hashes are retained in `manifests/main_phase2.json`.
+- `tools/analyze_main.py` regenerates the Phase 2 main artifacts after whole-ROM SHA-1 verification.
+- The next linked object is confirmed as `sprite.o`; `ResetSpriteData` begins immediately after the mapped `main.c` region.
+
+Current work: expand symbolization through the `sprite.c` engine, then continue into `text`, `string_util`, `link`, and `rtc`. Graphics/sprite assets will be restored separately as human-viewable PNGs plus rebuildable source data when asset extraction begins.
