@@ -1,0 +1,14 @@
+target_id,rom_filename,rom_sha1,front_table,back_table,normal_palette_table,shiny_palette_table
+jp_rev0,Pocket Monsters - Ruby (Japan).gba,5c5e546720300b99ae45d2aa35c646c8b8ff5c56,0x1BCB60,0x1BE000,0x1BEDC0,0x1C0FE0
+es_rev1,Pokemon - Edicion Rubi (Spain) (Rev 1).gba,9ac73481d7f5d150a018309bba91d185ce99fb7c,0x1ED074,0x1EE514,0x1EF2D4,0x1F14F4
+es_rev0,Pokemon - Edicion Rubi (Spain).gba,1f49f7289253dcbfecbc4c5ba3e67aa0652ec83c,0x1ED074,0x1EE514,0x1EF2D4,0x1F14F4
+de_debug,Pokemon - Rubin-Edition (Germany) (Debug Version).gba,ca5e3d415c4b47353a73a616878ba833f3648b7a,0x20E024,0x20F4C4,0x210284,0x2124A4
+de_rev1,Pokemon - Rubin-Edition (Germany) (Rev 1).gba,424740be1fc67a5ddb954794443646e6aeee2c1b,0x1F52D0,0x1F6770,0x1F7530,0x1F9750
+de_rev0,Pokemon - Rubin-Edition (Germany).gba,1c2a53332382e14dab8815e3a6dd81ad89534050,0x1F52D0,0x1F6770,0x1F7530,0x1F9750
+en_eu_rev1,Pokemon - Ruby Version (Europe) (Rev 1).gba,610b96a9c9a7d03d2bafb655e7560ccff1a6d894,0x1E836C,0x1E980C,0x1EA5CC,0x1EC7EC
+en_us_rev0,Pokemon - Ruby Version (USA).gba,f28b6ffc97847e94a6c21a63cacf633ee5c8df1e,0x1E8354,0x1E97F4,0x1EA5B4,0x1EC7D4
+en_useu_rev2,"Pokemon - Ruby Version (USA, Europe) (Rev 2).gba",5b64eacf892920518db4ec664e62a086dd5f5bc8,0x1E836C,0x1E980C,0x1EA5CC,0x1EC7EC
+fr_rev1,Pokemon - Version Rubis (France) (Rev 1).gba,ba888dfba231a231cbd60fe228e894b54fb1ed79,0x1F075C,0x1F1BFC,0x1F29BC,0x1F4BDC
+fr_rev0,Pokemon - Version Rubis (France).gba,a6ee94202bec0641c55d242757e84dc89336d4cb,0x1F075C,0x1F1BFC,0x1F29BC,0x1F4BDC
+it_rev1,Pokemon - Versione Rubino (Italy) (Rev 1).gba,015a5d380afe316a2a6fcc561798ebff9dfb3009,0x1E9FF0,0x1EB490,0x1EC250,0x1EE470
+it_rev0,Pokemon - Versione Rubino (Italy).gba,2b3134224392f58da00f802faa1bf4b5cf6270be,0x1E9FF0,0x1EB490,0x1EC250,0x1EE470
