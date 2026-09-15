@@ -1,0 +1,102 @@
+# German Rev 1 first Thumb main-loop excerpt
+# Code 0x08000380..0x08000417
+
+08000380 <.text>:
+ 8000380:      	push	{r4, r5, r6, r7, lr}
+ 8000382:      	mov	r7, r8
+ 8000384:      	push	{r7}
+ 8000386:      	movs	r0, #0xff
+ 8000388:      	bl	0x81ed770 <.text+0x1ed3f0> @ imm = #0x1ed3e4
+ 800038c:      	ldr	r1, [pc, #0x88]         @ 0x8000418 <.text+0x98>
+ 800038e:      	ldr	r2, [pc, #0x8c]         @ 0x800041c <.text+0x9c>
+ 8000390:      	adds	r0, r2, #0x0
+ 8000392:      	strh	r0, [r1]
+ 8000394:      	bl	0x8000534 <.text+0x1b4> @ imm = #0x19c
+ 8000398:      	bl	0x80005f8 <.text+0x278> @ imm = #0x25c
+ 800039c:      	bl	0x81eada4 <.text+0x1eaa24> @ imm = #0x1eaa04
+ 80003a0:      	bl	0x8009414 <.text+0x9094> @ imm = #0x9070
+ 80003a4:      	bl	0x8047cf0 <.text+0x47970> @ imm = #0x47948
+ 80003a8:      	bl	0x80004bc <.text+0x13c> @ imm = #0x110
+ 80003ac:      	bl	0x8074f6c <.text+0x74bec> @ imm = #0x74bbc
+ 80003b0:      	bl	0x8000518 <.text+0x198> @ imm = #0x164
+ 80003b4:      	ldr	r0, [pc, #0x68]         @ 0x8000420 <.text+0xa0>
+ 80003b6:      	movs	r4, #0x0
+ 80003b8:      	strb	r4, [r0]
+ 80003ba:      	ldr	r0, [pc, #0x68]         @ 0x8000424 <.text+0xa4>
+ 80003bc:      	ldr	r0, [r0]
+ 80003be:      	cmp	r0, #0x1
+ 80003c0:      	beq	0x80003c8 <.text+0x48>  @ imm = #0x4
+ 80003c2:      	movs	r0, #0x0
+ 80003c4:      	bl	0x8000500 <.text+0x180> @ imm = #0x138
+ 80003c8:      	ldr	r0, [pc, #0x5c]         @ 0x8000428 <.text+0xa8>
+ 80003ca:      	strb	r4, [r0]
+ 80003cc:      	ldr	r5, [pc, #0x5c]         @ 0x800042c <.text+0xac>
+ 80003ce:      	ldr	r6, [pc, #0x60]         @ 0x8000430 <.text+0xb0>
+ 80003d0:      	ldr	r0, [pc, #0x60]         @ 0x8000434 <.text+0xb4>
+ 80003d2:      	adds	r0, r0, r6
+ 80003d4:      	mov	r8, r0
+ 80003d6:      	movs	r7, #0x0
+ 80003d8:      	bl	0x800055c <.text+0x1dc> @ imm = #0x180
+ 80003dc:      	ldr	r0, [pc, #0x40]         @ 0x8000420 <.text+0xa0>
+ 80003de:      	ldrb	r0, [r0]
+ 80003e0:      	cmp	r0, #0x0
+ 80003e2:      	bne	0x80003fa <.text+0x7a>  @ imm = #0x14
+ 80003e4:      	ldrh	r1, [r5, #0x28]
+ 80003e6:      	movs	r0, #0x1
+ 80003e8:      	ands	r0, r1
+ 80003ea:      	cmp	r0, #0x0
+ 80003ec:      	beq	0x80003fa <.text+0x7a>  @ imm = #0xa
+ 80003ee:      	movs	r0, #0xe
+ 80003f0:      	ands	r0, r1
+ 80003f2:      	cmp	r0, #0xe
+ 80003f4:      	bne	0x80003fa <.text+0x7a>  @ imm = #0x2
+ 80003f6:      	bl	0x80007e8 <.text+0x468> @ imm = #0x3ee
+ 80003fa:      	ldrb	r0, [r6]
+ 80003fc:      	cmp	r0, #0x1
+ 80003fe:      	bls	0x8000438 <.text+0xb8>  @ imm = #0x36
+ 8000400:      	bl	0x8055c50 <.text+0x558d0> @ imm = #0x5584c
+ 8000404:      	cmp	r0, #0x1
+ 8000406:      	bne	0x8000438 <.text+0xb8>  @ imm = #0x2e
+ 8000408:      	ldr	r4, [pc, #0x1c]         @ 0x8000428 <.text+0xa8>
+ 800040a:      	strb	r0, [r4]
+ 800040c:      	bl	0x8000474 <.text+0xf4>  @ imm = #0x64
+ 8000410:      	movs	r0, #0x0
+ 8000412:      	strb	r0, [r4]
+ 8000414:      	b	0x8000460 <.text+0xe0>  @ imm = #0x48
+ 8000416:      	movs	r0, r0
+
+# literal pool 0x08000418..0x08000437
+# 0x08000418 = 0x04000204
+# 0x0800041C = 0x00004014
+# 0x08000420 = 0x03001BB4
+# 0x08000424 = 0x03004830
+# 0x08000428 = 0x03001764
+# 0x0800042C = 0x03001770
+# 0x08000430 = 0x030033B9
+# 0x08000434 = 0x00000C84
+
+# Code resumes 0x08000438..0x0800046F
+
+08000438 <.text>:
+ 8000438:      	ldr	r4, [pc, #0x34]         @ 0x8000470 <.text+0x38>
+ 800043a:      	movs	r0, #0x0
+ 800043c:      	strb	r0, [r4]
+ 800043e:      	bl	0x8000474 <.text+0x3c>  @ imm = #0x32
+ 8000442:      	mov	r1, r8
+ 8000444:      	ldrb	r0, [r1]
+ 8000446:      	cmp	r0, #0x1
+ 8000448:      	bls	0x8000460 <.text+0x28>  @ imm = #0x14
+ 800044a:      	bl	0x8055bec <.text+0x557b4> @ imm = #0x5579e
+ 800044e:      	adds	r1, r0, #0x0
+ 8000450:      	cmp	r1, #0x1
+ 8000452:      	bne	0x8000460 <.text+0x28>  @ imm = #0xa
+ 8000454:      	movs	r0, #0x0
+ 8000456:      	strh	r0, [r5, #0x2e]
+ 8000458:      	strb	r1, [r4]
+ 800045a:      	bl	0x8000474 <.text+0x3c>  @ imm = #0x16
+ 800045e:      	strb	r7, [r4]
+ 8000460:      	bl	0x8052fbc <.text+0x52b84> @ imm = #0x52b58
+ 8000464:      	bl	0x8074f80 <.text+0x74b48> @ imm = #0x74b18
+ 8000468:      	bl	0x80007c8 <.text+0x390> @ imm = #0x35c
+ 800046c:      	b	0x80003d8               @ imm = #-0x98
+ 800046e:      	movs	r0, r0

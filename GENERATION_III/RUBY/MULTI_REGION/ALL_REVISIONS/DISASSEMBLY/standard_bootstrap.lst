@@ -1,0 +1,105 @@
+# Representative standard bootstrap: English Rev 2
+# ARM7TDMI / ARM state
+
+080000d0 <.text>:
+ 80000d0:      	mov	r0, #18
+ 80000d4:      	msr	CPSR_fc, r0
+ 80000d8:      	ldr	sp, [pc, #0x28]         @ 0x8000108 <.text+0x38>
+ 80000dc:      	mov	r0, #31
+ 80000e0:      	msr	CPSR_fc, r0
+ 80000e4:      	ldr	sp, [pc, #0x18]         @ 0x8000104 <.text+0x34>
+ 80000e8:      	ldr	r1, [pc, #0x150]        @ 0x8000240 <.text+0x170>
+ 80000ec:      	add	r0, pc, #24
+ 80000f0:      	str	r0, [r1]
+ 80000f4:      	ldr	r1, [pc, #0x148]        @ 0x8000244 <.text+0x174>
+ 80000f8:      	mov	lr, pc
+ 80000fc:      	bx	r1
+ 8000100:      	b	0x80000d0 <.text>       @ imm = #-0x38
+
+# literals 0x08000104..0x0800010B
+# 0x08000104 = 0x03007E60
+# 0x08000108 = 0x03007FA0
+
+0800010c <.text>:
+ 800010c:      	mov	r3, #67108864
+ 8000110:      	add	r3, r3, #512
+ 8000114:      	ldr	r2, [r3]
+ 8000118:      	ldrh	r1, [r3, #8]
+ 800011c:      	mrs	r0, spsr
+ 8000120:      	push	{r0, r1, r2, r3, lr}
+ 8000124:      	mov	r0, #1
+ 8000128:      	strh	r0, [r3, #8]
+ 800012c:      	and	r1, r2, r2, lsr #16
+ 8000130:      	mov	r12, #0
+ 8000134:      	ands	r0, r1, #128
+ 8000138:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x9c
+ 800013c:      	add	r12, r12, #4
+ 8000140:      	ands	r0, r1, #64
+ 8000144:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x90
+ 8000148:      	add	r12, r12, #4
+ 800014c:      	ands	r0, r1, #2
+ 8000150:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x84
+ 8000154:      	add	r12, r12, #4
+ 8000158:      	ands	r0, r1, #1
+ 800015c:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x78
+ 8000160:      	add	r12, r12, #4
+ 8000164:      	ands	r0, r1, #4
+ 8000168:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x6c
+ 800016c:      	add	r12, r12, #4
+ 8000170:      	ands	r0, r1, #8
+ 8000174:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x60
+ 8000178:      	add	r12, r12, #4
+ 800017c:      	ands	r0, r1, #16
+ 8000180:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x54
+ 8000184:      	add	r12, r12, #4
+ 8000188:      	ands	r0, r1, #32
+ 800018c:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x48
+ 8000190:      	add	r12, r12, #4
+ 8000194:      	ands	r0, r1, #256
+ 8000198:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x3c
+ 800019c:      	add	r12, r12, #4
+ 80001a0:      	ands	r0, r1, #512
+ 80001a4:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x30
+ 80001a8:      	add	r12, r12, #4
+ 80001ac:      	ands	r0, r1, #1024
+ 80001b0:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x24
+ 80001b4:      	add	r12, r12, #4
+ 80001b8:      	ands	r0, r1, #2048
+ 80001bc:      	bne	0x80001dc <.text+0xd0>  @ imm = #0x18
+ 80001c0:      	add	r12, r12, #4
+ 80001c4:      	ands	r0, r1, #4096
+ 80001c8:      	bne	0x80001dc <.text+0xd0>  @ imm = #0xc
+ 80001cc:      	add	r12, r12, #4
+ 80001d0:      	ands	r0, r1, #8192
+ 80001d4:      	strbne	r0, [r3, #-0x17c]
+ 80001d8:      	bne	0x80001d8 <.text+0xcc>  @ imm = #-0x8
+ 80001dc:      	strh	r0, [r3, #2]
+ 80001e0:      	mov	r1, #194
+ 80001e4:      	bic	r2, r2, r0
+ 80001e8:      	and	r1, r1, r2
+ 80001ec:      	strh	r1, [r3]
+ 80001f0:      	mrs	r3, apsr
+ 80001f4:      	bic	r3, r3, #223
+ 80001f8:      	orr	r3, r3, #31
+ 80001fc:      	msr	CPSR_fc, r3
+ 8000200:      	ldr	r1, [pc, #0x40]         @ 0x8000248 <.text+0x13c>
+ 8000204:      	add	r1, r1, r12
+ 8000208:      	ldr	r0, [r1]
+ 800020c:      	stmdb	sp!, {lr}
+ 8000210:      	add	lr, pc, #0
+ 8000214:      	bx	r0
+ 8000218:      	ldm	sp!, {lr}
+ 800021c:      	mrs	r3, apsr
+ 8000220:      	bic	r3, r3, #223
+ 8000224:      	orr	r3, r3, #146
+ 8000228:      	msr	CPSR_fc, r3
+ 800022c:      	pop	{r0, r1, r2, r3, lr}
+ 8000230:      	strh	r2, [r3]
+ 8000234:      	strh	r1, [r3, #8]
+ 8000238:      	msr	SPSR_fc, r0
+ 800023c:      	bx	lr
+
+# literals 0x08000240..0x0800024B
+# 0x08000240 = 0x03007FFC
+# 0x08000244 = 0x0800024D
+# 0x08000248 = 0x03001BC0
