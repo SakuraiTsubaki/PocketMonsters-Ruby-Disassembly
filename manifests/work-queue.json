@@ -2,14 +2,28 @@
   "schema_version": 1,
   "project": "PocketMonsters-Ruby-Disassembly",
   "workflow": "disassembly",
-  "stage": "target_lock_and_architecture_mapping",
-  "current_unit": "first verified target",
-  "next_actions": [
-    "Lock the first verified Ruby target from a local read-only ROM.",
-    "Record cartridge header identity and cryptographic hashes.",
-    "Establish the ROM-range map and ARM/Thumb/data boundaries.",
-    "Create the initial byte-preserving reconstruction baseline before replacing ranges with source."
+  "stage": "architecture_mapping_and_source_reconstruction",
+  "current_unit": "bootstrap, IRQ, and first Thumb paths",
+  "completed": [
+    "Inventoried all 13 supplied read-only Ruby targets with hashes and cartridge header identity.",
+    "Verified GBA header complements for all 13 targets.",
+    "Established byte-preserving INCBIN baselines for all 13 targets.",
+    "Identified the standard and localized bootstrap layout families.",
+    "Isolated the small retail revision condition-branch changes."
   ],
-  "evidence": ["docs/PROJECT_STATUS.md"],
+  "next_actions": [
+    "Convert verified bootstrap listings into labeled ARM/Thumb source in the existing root-level repository layout.",
+    "Expand control-flow discovery from the IRQ and first Thumb entry paths.",
+    "Classify ROM ranges as code, typed data, scripts, graphics, audio, maps, or unknown without guessing.",
+    "Maintain exact-byte verification whenever an INCBIN range is replaced with reconstructed source."
+  ],
+  "evidence": [
+    "docs/PROJECT_STATUS.md",
+    "docs/VERSIONS.md",
+    "docs/BOOTSTRAP.md",
+    "manifests/rom_inventory.csv",
+    "manifests/baseline_verification.json",
+    "manifests/revision_diffs.json"
+  ],
   "status": "active"
 }

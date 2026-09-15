@@ -3,6 +3,7 @@
 | Document | Purpose |
 | --- | --- |
 | [Project Status](PROJECT_STATUS.md) | Current coverage and next milestones |
+| [Bootstrap Findings](BOOTSTRAP.md) | Verified ARM/Thumb startup layout and target-family differences |
 | [Roadmap](ROADMAP.md) | Recommended progression of the disassembly |
 | [Version Coverage](VERSIONS.md) | Release, region, language, revision, and hash inventory |
 | [Research Guide](RESEARCH_GUIDE.md) | How findings and evidence are recorded |
