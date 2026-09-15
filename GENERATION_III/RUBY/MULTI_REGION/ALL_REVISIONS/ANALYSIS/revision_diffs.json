@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "comparisons": [
+    {"from":"ruby-usa-en-rev0","to":"ruby-eur-en-rev1","different_bytes":5744535,"contiguous_runs":419998,"first_difference":"0xBC","last_difference":"0xEA7822","max_run_bytes":2439},
+    {"from":"ruby-eur-en-rev1","to":"ruby-usa-eur-en-rev2","different_bytes":4,"contiguous_runs":3,"first_difference":"0xBC","last_difference":"0x91BF","max_run_bytes":2,"first_runs":[{"start":"0xBC","end":"0xBD","length":2},{"start":"0x919B","end":"0x919B","length":1},{"start":"0x91BF","end":"0x91BF","length":1}]},
+    {"from":"ruby-usa-en-rev0","to":"ruby-usa-eur-en-rev2","different_bytes":5744537,"contiguous_runs":420000,"first_difference":"0xBC","last_difference":"0xEA7822","max_run_bytes":2439},
+    {"from":"ruby-eur-de-rev0","to":"ruby-eur-de-rev1","different_bytes":4,"contiguous_runs":3,"first_difference":"0xBC","last_difference":"0x938B","max_run_bytes":2,"first_runs":[{"start":"0xBC","end":"0xBD","length":2},{"start":"0x9367","end":"0x9367","length":1},{"start":"0x938B","end":"0x938B","length":1}]},
+    {"from":"ruby-eur-de-debug","to":"ruby-eur-de-rev0","different_bytes":6751723,"contiguous_runs":263540,"first_difference":"0x128","last_difference":"0x6DF84F","max_run_bytes":9624},
+    {"from":"ruby-eur-fr-rev0","to":"ruby-eur-fr-rev1","different_bytes":4,"contiguous_runs":3,"first_difference":"0xBC","last_difference":"0x938B","max_run_bytes":2},
+    {"from":"ruby-eur-it-rev0","to":"ruby-eur-it-rev1","different_bytes":4,"contiguous_runs":3,"first_difference":"0xBC","last_difference":"0x938B","max_run_bytes":2},
+    {"from":"ruby-eur-es-rev0","to":"ruby-eur-es-rev1","different_bytes":4,"contiguous_runs":3,"first_difference":"0xBC","last_difference":"0x938B","max_run_bytes":2}
+  ],
+  "verified_small_revision_patches": {
+    "international_localized_rev0_to_rev1": {
+      "applies_to":["German","French","Italian","Spanish"],
+      "header_changes":["0x0000BC software version: 0 -> 1","0x0000BD complement check adjusted"],
+      "thumb_changes":[{"address":"0x08009366","encoding":"0xDD11 -> 0xDB11","instruction":"BLE -> BLT"},{"address":"0x0800938A","encoding":"0xDCED -> 0xDAED","instruction":"BGT -> BGE"}],
+      "different_bytes_total":4
+    },
+    "english_rev1_to_rev2": {
+      "header_changes":["0x0000BC software version: 1 -> 2","0x0000BD complement check adjusted"],
+      "thumb_changes":[{"address":"0x0800919A","encoding":"0xDD11 -> 0xDB11","instruction":"BLE -> BLT"},{"address":"0x080091BE","encoding":"0xDCED -> 0xDAED","instruction":"BGT -> BGE"}],
+      "different_bytes_total":4
+    }
+  }
+}

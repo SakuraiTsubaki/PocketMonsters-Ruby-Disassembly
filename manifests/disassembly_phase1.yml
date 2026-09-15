@@ -6,27 +6,40 @@ status: active
 phase: 1
 phase_name: target inventory and architecture mapping
 rom_binaries_committed: false
-target_identity:
-  region: pending
-  language: pending
-  revision: pending
-  sha1: pending
-  sha256: pending
+target_inventory:
+  total_roms: 13
+  verified_headers: 13
+  japan: 1
+  english: 3
+  german: 3
+  french: 2
+  italian: 2
+  spanish: 2
+bootstrap_families:
+  standard_d0:
+    entry: 0x080000D0
+    targets: [japan, english]
+  localized_204:
+    entry: 0x08000204
+    targets: [german, french, italian, spanish]
 mapping:
   rom_ranges: in_progress
-  arm_code: pending
-  thumb_code: pending
-  data: pending
+  arm_code: started
+  thumb_code: started
+  data: in_progress
   scripts: pending
   graphics: pending
   audio: pending
   maps: pending
 verification:
-  byte_preserving_baseline: pending
+  cryptographic_inventory: complete
+  gba_header_checksums: 13/13 valid
+  entrypoint_map: complete
+  small_revision_patch_map: complete
+  byte_preserving_baseline: complete_13_of_13
   matching_build: pending
 next:
-  - lock first verified retail target
-  - record cartridge header and cryptographic hashes
-  - classify ROM ranges without guessing unknown data
-  - establish byte-preserving reconstruction baseline
-  - replace verified ranges incrementally with labeled source
+  - split the verified INCBIN baseline into offset-bounded ranges per target
+  - convert verified bootstrap ranges to labeled ARM source
+  - convert first Thumb entry functions and IRQ path
+  - expand control-flow and data classification maps
