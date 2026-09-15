@@ -1,19 +1,9 @@
 # Repository Structure
 
-The live project path convention is:
+The repository starts intentionally small. Directories are added when real project material exists.
 
-`GENERATION → GAME → LANGUAGE/REGION → REVISION → WORK TYPE`
+Expected long-term areas may include `asm/`, `data/`, `assets/`, `tools/`, `tests/`, `manifests/`, and `docs/`.
 
-For this repository the concrete root is `GENERATION_III/RUBY/`. Target-specific material belongs below a language/region and revision directory. Cross-target inventories and tools use the explicit aggregate path `MULTI_REGION/ALL_REVISIONS/`; this preserves the same hierarchy without pretending that a shared artifact belongs to one retail target.
+These names describe responsibilities, not a mandate to imitate another generation's project tree. The verified architecture of the target determines the detailed layout.
 
-Examples:
-
-- `GENERATION_III/RUBY/JAPAN_JAPANESE/REV_0/DISASSEMBLY/`
-- `GENERATION_III/RUBY/USA_ENGLISH/REV_0/DISASSEMBLY/`
-- `GENERATION_III/RUBY/EUROPE_GERMAN/REV_1/DISASSEMBLY/`
-- `GENERATION_III/RUBY/MULTI_REGION/ALL_REVISIONS/MANIFESTS/`
-- `GENERATION_III/RUBY/MULTI_REGION/ALL_REVISIONS/TOOLS/`
-
-Work types may include `DISASSEMBLY`, `MANIFESTS`, `ANALYSIS`, `SYMBOLS`, `MAPS`, `SCRIPTS`, `GRAPHICS`, `AUDIO`, `TESTS`, and `BUILD`, created only when verified project material exists.
-
-ROM binaries are never committed. Local original ROMs are read-only inputs for hashing, extraction, comparison, `INCBIN` baselines, and matching verification.
+Avoid repository-wide structural version churn. Improve policy and documentation in place. Git history is the historical record; the live tree should represent the current structure only.
