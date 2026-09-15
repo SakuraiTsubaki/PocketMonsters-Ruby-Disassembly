@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project": "PocketMonsters-Ruby-Disassembly",
+  "workflow": "disassembly",
+  "stage": "target_lock_and_architecture_mapping",
+  "current_unit": "first verified target",
+  "next_actions": [
+    "Lock the first verified Ruby target from a local read-only ROM.",
+    "Record cartridge header identity and cryptographic hashes.",
+    "Establish the ROM-range map and ARM/Thumb/data boundaries.",
+    "Create the initial byte-preserving reconstruction baseline before replacing ranges with source."
+  ],
+  "evidence": ["docs/PROJECT_STATUS.md"],
+  "status": "active"
+}
