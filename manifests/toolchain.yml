@@ -1,0 +1,44 @@
+schema_version: 1
+project: PocketMonsters-Ruby-Disassembly
+platform: Game Boy Advance
+cpu: ARM7TDMI
+isa: ARMv4T
+required:
+  llvm:
+    - clang
+    - ld.lld
+    - llvm-objdump
+    - llvm-objcopy
+  gnu_arm:
+    - arm-none-eabi-gcc
+    - arm-none-eabi-as
+    - arm-none-eabi-objdump
+    - arm-none-eabi-objcopy
+  debugger:
+    - gdb-multiarch
+  build:
+    - python3
+    - cmake
+    - ninja
+    - make
+    - git
+  inspection:
+    - jq
+    - xxd
+    - file
+    - diff
+    - rg
+emulator:
+  primary: mGBA
+  pinned_fallback_version: 0.10.5
+optional:
+  devkitpro_group: gba-dev
+not_default:
+  - RGBDS
+  - agbcc
+  - Dolphin
+  - Ghidra
+install: tools/setup_dev_environment.sh
+verify: tools/check_gba_env.sh
+launch_emulator: tools/run_mgba.sh
+rom_binaries_committed: false
