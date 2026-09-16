@@ -1,2 +1,38 @@
 # PocketMonsters-Ruby-Disassembly
-Reproducible disassembly/decompilation of Pokémon Ruby, including extracted and reconstructed code, data, text, graphics, maps, scripts, audio, and multi-language/revision support. ROM binaries are not included.
+
+Evidence-driven disassembly research for **Pokémon Ruby**.
+
+## Target
+
+| Field | Value |
+| --- | --- |
+| Platform | Game Boy Advance |
+| CPU | ARM7TDMI (ARMv4T) |
+| Architecture profile | `gba-arm7tdmi` |
+| Scope | Japanese and localized Ruby releases across independently verified revisions. |
+| Current stage | Foundation; no release baseline is verified yet |
+
+## Ready to use
+
+- machine-readable target metadata and an intentionally empty release matrix;
+- architecture-specific bank/section and symbol tables;
+- documented scope, workflow, research method, and roadmap;
+- local input hashing and repository validation tools;
+- unit tests, GitHub Actions, issue forms, and pull-request checks.
+
+## Start a verified baseline
+
+```sh
+python tools/hash_input.py path/to/legally-obtained-input
+python tools/validate_repository.py .
+python -m unittest discover -s tests -v
+```
+
+Add only metadata and hashes to `research/releases.csv`; never add the input.
+Use `research/templates/note.md` for each bounded investigation.
+
+Shared methods and reusable tools belong in
+[`SakuraiTsubaki/Disassembly`](https://github.com/SakuraiTsubaki/Disassembly).
+
+No earlier experimental work was migrated. Completeness and byte-exactness are
+not claimed until automated evidence exists.
