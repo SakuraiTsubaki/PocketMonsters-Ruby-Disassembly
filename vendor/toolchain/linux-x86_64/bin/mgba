@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+HERE="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+export APPIMAGE_EXTRACT_AND_RUN=1
+if [[ -z "${DISPLAY:-}" && -z "${WAYLAND_DISPLAY:-}" ]]; then export QT_QPA_PLATFORM="${QT_QPA_PLATFORM:-offscreen}"; fi
+exec "$HERE/../mgba/mGBA.AppImage" "$@"
