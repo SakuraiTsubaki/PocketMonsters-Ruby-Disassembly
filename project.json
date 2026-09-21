@@ -1,13 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/project.schema.json",
-  "schema_version": 1,
-  "id": "ruby",
-  "repository": "SakuraiTsubaki/PocketMonsters-Ruby-Disassembly",
-  "title": "Pokémon Ruby",
-  "platform": "Game Boy Advance",
-  "cpu": "ARM7TDMI (ARMv4T)",
-  "architecture": "gba-arm7tdmi",
-  "family": "generation-iii",
-  "status": "foundation",
-  "releases": []
+  "$schema":"https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/project.schema.json","schema_version":1,"id":"ruby","repository":"SakuraiTsubaki/PocketMonsters-Ruby-Disassembly","title":"Pokémon Ruby","platform":"Game Boy Advance","cpu":"ARM7TDMI (ARMv4T)","architecture":"gba-arm7tdmi","family":"generation-iii","status":"foundation",
+  "releases":[
+    {"id":"ruby-jp-rev0","region":"Japan","language":"Japanese","revision":"0","status":"candidate","size":8388608,"sha1":"5c5e546720300b99ae45d2aa35c646c8b8ff5c56","sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"},
+    {"id":"ruby-en-rev0","region":"USA","language":"English","revision":"0","status":"candidate","size":16777216,"sha1":"f28b6ffc97847e94a6c21a63cacf633ee5c8df1e","sha256":"53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e"},
+    {"id":"ruby-en-rev1","region":"Europe","language":"English","revision":"1","status":"candidate","size":16777216,"sha1":"610b96a9c9a7d03d2bafb655e7560ccff1a6d894","sha256":"0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0"},
+    {"id":"ruby-en-rev2","region":"USA/Europe","language":"English","revision":"2","status":"candidate","size":16777216,"sha1":"5b64eacf892920518db4ec664e62a086dd5f5bc8","sha256":"0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c"}
+  ]
 }
