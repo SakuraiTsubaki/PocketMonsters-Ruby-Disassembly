@@ -1,0 +1,5 @@
+{
+  "$schema":"https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/analysis-manifest.schema.json","schema_version":1,"id":"ruby-release-header-report","targets":["SakuraiTsubaki/PocketMonsters-Ruby-Disassembly"],"generator":{"name":"SakuraiTsubaki/Disassembly tools/inspect_gba_rom.py","version":"1.0.0"},"command":"python tools/inspect_gba_rom.py path/to/legally-obtained-input --require-valid","inputs":[
+    {"size":8388608,"sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"},{"size":16777216,"sha256":"53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e"},{"size":16777216,"sha256":"0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0"},{"size":16777216,"sha256":"0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c"}
+  ],"outputs":[{"path":"analysis/ruby-release-header-report.json","sha256":"edd5aa87c9aae5c632f63e7bc95df560a1e3a7f67daa1131cb1a36eadcf62c0e"}]
+}
