@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"ruby-jp-rev0-thumb-cfg","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852","start_address":"0x0800024c"}],"outputs":[{"path":"analysis/ruby-jp-rev0-thumb-cfg.json","sha256":"fdf740b4383f5b5c457880dcb189bb7112a25418ba44dfc06bb6c0b06447a824"},{"path":"src/thumb_entry_reachable.s","sha256":"5b23a07514ad793d0299bfd67e51f7a58bcaa519c79964c02923ff74b378f5f7"}]}
+
