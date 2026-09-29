@@ -1,1 +1,5 @@
 id,region,language,revision,status,size,sha1,sha256,notes
+ruby-jp-rev0,Japan,Japanese,0,candidate,8388608,5c5e546720300b99ae45d2aa35c646c8b8ff5c56,e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852,"Title POKEMON RUBY; game code AXVJ; maker 01; checksum 0x3c"
+ruby-en-rev0,USA,English,0,candidate,16777216,f28b6ffc97847e94a6c21a63cacf633ee5c8df1e,53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e,"Title POKEMON RUBY; game code AXVE; maker 01; checksum 0x41"
+ruby-en-rev1,Europe,English,1,candidate,16777216,610b96a9c9a7d03d2bafb655e7560ccff1a6d894,0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0,"Title POKEMON RUBY; game code AXVE; maker 01; checksum 0x40"
+ruby-en-rev2,USA/Europe,English,2,candidate,16777216,5b64eacf892920518db4ec664e62a086dd5f5bc8,0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c,"Title POKEMON RUBY; game code AXVE; maker 01; checksum 0x3f"

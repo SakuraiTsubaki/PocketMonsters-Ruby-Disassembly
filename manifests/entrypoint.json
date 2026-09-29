@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"ruby-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852","offset":0,"length":4}],"outputs":[{"path":"analysis/ruby-jp-rev0-entrypoint.json","sha256":"2b5fcd2c7138402d1dcfc318eb9e5ff2420367704ae9ccfd7b3a5a961590d63b"},{"path":"src/rom_entry.s","sha256":"9fbd38b66604762a346799dd7210947ffab8f00350b9f525a2173696e2fe6acb"}]}
+
