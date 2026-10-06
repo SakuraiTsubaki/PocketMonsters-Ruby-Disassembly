@@ -1,0 +1,1 @@
+{"schema_version":1,"id":"ruby-jp-repeated-callback-cfg","input":{"release":"AXVJ-rev0","sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852","start_offset":"0x348","max_span":"0x100"},"output":{"path":"analysis/ruby-jp-repeated-callback-cfg.json","sha256":"611bff55e758b20abc42d1baed338b65e6d78a6a1ceccf95ca12f783f91e90e2"},"raw_rom_bytes_included":false}
