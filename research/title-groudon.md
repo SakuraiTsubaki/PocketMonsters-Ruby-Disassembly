@@ -27,3 +27,13 @@ extract_gba_lz77_4bpp.py <ROM> --offset 0x36F110 --tiles-per-row 16 \
 
 This verifies the asset correspondence only. It does not promote the overall
 release candidate to `verified`.
+
+## Whole-ROM discovery evidence
+
+A bounded scan of the complete 8 MiB Japanese ROM found 54 valid BIOS-LZ77
+streams with an 8,192-byte decoded length, all with distinct decoded hashes.
+The equivalent Sapphire scan also found 54. Exactly 53 decoded hashes are
+shared; Ruby's sole unmatched stream is the Groudon stream at `0x36F110`, and
+Sapphire's sole unmatched stream is the independently identified Kyogre
+stream. `analysis/ruby-jp-rev0-lz77-8192-scan.json` preserves the offsets,
+lengths, and hashes for reproduction without publishing ROM bytes.
