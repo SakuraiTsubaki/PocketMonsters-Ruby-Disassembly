@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "asset": "title-screen Groudon later revisions",
+  "releases": ["en-rev1", "en-rev2", "de-rev1", "fr-rev1", "it-rev1", "es-rev1"],
+  "decoded_sha256": "93c1ec4ecac6e99d33dbc47fb84a2350b11a01d578066744f79d506cc48ca862",
+  "compressed_sha256": "19502e66c1a9d95332ede0f4f2df5a0e62adb71adca82ffdcb85ae83f021ccc2",
+  "png_sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6",
+  "outputs": [
+    {"path":"analysis/ruby-en-rev1-title-groudon.json","sha256":"0150f9ada298f05f4a192707ae92dc0374fbcab573f5580bc5472d4a8e1cc986"},
+    {"path":"analysis/ruby-en-rev1-title-groudon-load.json","sha256":"330e652c88183e9649edfca10c5f5a28187783825c600ee41f5e7d767b9843fb"},
+    {"path":"analysis/ruby-en-rev2-title-groudon.json","sha256":"56803f50053f5ce3ba7c1256ef8149e1dc1fc8857430a17e281b3f3e95cd1677"},
+    {"path":"analysis/ruby-en-rev2-title-groudon-load.json","sha256":"17eebc6918cfe335c6e4f21b4ae427ab620d5c34a73c6eee7780d2b41672ae70"},
+    {"path":"analysis/ruby-de-rev1-title-groudon.json","sha256":"ca31e49dd37f4974b389b88aafc56134d0ad5d266ec9a72f35a66032a421c8be"},
+    {"path":"analysis/ruby-de-rev1-title-groudon-load.json","sha256":"7d284ece8977b9c5fabacd5567816ec1cc8599a474f13e21a1d42c7b23502efb"},
+    {"path":"analysis/ruby-fr-rev1-title-groudon.json","sha256":"dd645009fc599480c7f5bacee35c45032be2a619d8ae16b704a41cf70c2d4ea2"},
+    {"path":"analysis/ruby-fr-rev1-title-groudon-load.json","sha256":"039cc3a6ba68a203c3897f0d6715e71006619a5c0ca83896a7313998cb815d22"},
+    {"path":"analysis/ruby-it-rev1-title-groudon.json","sha256":"8e233ad9bb353674e6abfd1ca599e17b0a0d282aa08cc3c7dbd0b312934beacb"},
+    {"path":"analysis/ruby-it-rev1-title-groudon-load.json","sha256":"954bcc703312d440218fac331023942985004092909f20f90221dede0790a466"},
+    {"path":"analysis/ruby-es-rev1-title-groudon.json","sha256":"a78fc7a0d1796b6c21f390af3aed53a4487c855bf075dae3ef039845b074b24b"},
+    {"path":"analysis/ruby-es-rev1-title-groudon-load.json","sha256":"d874f88af0ef0cd1abf12a37066ecbf8e80da09df4a93ec38b93f86eb08ce4ef"}
+  ],
+  "raw_rom_bytes_included": false
+}

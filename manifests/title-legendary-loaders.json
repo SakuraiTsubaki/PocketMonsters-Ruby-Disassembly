@@ -43,7 +43,7 @@
     },
     {
       "path": "tests/test_title_legendary_loader.py",
-      "sha256": "4c0515df81ba4df43b7d49e4f73a3218c3f9b1fdb48e39d05353fac402dfb75f"
+      "sha256": "561d267bb84e23d013a4077e92003a9f54a601608a0d14afc51aeab94e85d34e"
     },
     {
       "path": "analysis/ruby-de-rev0-title-groudon-load.json",

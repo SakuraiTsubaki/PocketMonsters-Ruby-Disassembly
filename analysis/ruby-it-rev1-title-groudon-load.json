@@ -1,0 +1,27 @@
+{
+  "asset": {
+    "source_offset": 3749696,
+    "source_pointer": 137967424,
+    "decompressed_length": 8192
+  },
+  "pointer_locations": [
+    509524
+  ],
+  "thumb_references": [
+    {
+      "instruction_offset": 509402,
+      "literal_offset": 509524,
+      "destination_register": 0,
+      "destination_literal_offset": 509528,
+      "destination": 100696064,
+      "call_offset": 509406,
+      "call_target": 136193148,
+      "loader_sequence_length": 8,
+      "loader_sequence_sha256": "5090af374a3ab669fcb017e11cee64ee8c9373afe8f3a95a7843a6c4b584840f"
+    }
+  ],
+  "raw_bytes_published": false,
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "be116b6fa8d8c12d7ccff3faefd5defd886faa427ff2c85c06d245cbe4e531b2"
+}
