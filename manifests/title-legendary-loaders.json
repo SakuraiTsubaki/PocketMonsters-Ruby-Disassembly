@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "asset": "groudon",
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/trace_gba_lz77_load.py",
+    "tool_sha256": "a6c8b594dbb34ca67d6fec4395e0df1f4e846a2a41fa532c29a0f7f835df7fcb"
+  },
+  "inputs": [
+    {
+      "path": "analysis/ruby-de-rev0-title-groudon.json",
+      "sha256": "60687c657411c46694b373a07f8dc2b305094e95a1ccf1715fd1c06067b669d6"
+    },
+    {
+      "path": "analysis/ruby-en-rev0-title-groudon.json",
+      "sha256": "cea555cb44aae83621b18a574ad5c4d4ce7c3c82337c88ade8fc7ad0592bd4d6"
+    },
+    {
+      "path": "analysis/ruby-es-rev0-title-groudon.json",
+      "sha256": "21140767f541204418937a6176134de4a983a03299fc55504a6b6d920602bf8d"
+    },
+    {
+      "path": "analysis/ruby-fr-rev0-title-groudon.json",
+      "sha256": "05afb6b027885fc53706e0e2768496ce44c7f872e46ce13d88613e33ece95e33"
+    },
+    {
+      "path": "analysis/ruby-it-rev0-title-groudon.json",
+      "sha256": "3f2ca2736f81f10d82a66c416b09e72803ed0fd7817c376fe0e23ba862d44092"
+    },
+    {
+      "path": "analysis/ruby-jp-rev0-title-groudon.json",
+      "sha256": "af7978aac03186d9e1718aeb49d23535ad7b6fe9327a656e683e68fe61d44ceb"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "src/title_legendary_loader.asm",
+      "sha256": "cc7acbfdf1af6b1f3644cc3d68d9b17be1521d3035cab9b993a19f87b5c767da"
+    },
+    {
+      "path": "research/title-legendary-loader.md",
+      "sha256": "ed233cfcf14db47fa6d4e30a90a27706eabb2bff035978ad7b291c6a4aca4af4"
+    },
+    {
+      "path": "tests/test_title_legendary_loader.py",
+      "sha256": "4c0515df81ba4df43b7d49e4f73a3218c3f9b1fdb48e39d05353fac402dfb75f"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-title-groudon-load.json",
+      "sha256": "a319c5227d7a9288f7cc46101ecd74d944136edc1ca01bd9caa6ffc68d9b8308"
+    },
+    {
+      "path": "analysis/ruby-en-rev0-title-groudon-load.json",
+      "sha256": "659d9592da78088cdf1f9340455b403b4b8c567aa2880c1a26d0d2745a1ae55e"
+    },
+    {
+      "path": "analysis/ruby-es-rev0-title-groudon-load.json",
+      "sha256": "9e401e281145cb58090fe77e94c63dc463eb94bb2b1a313a4dc94fe76cb02a31"
+    },
+    {
+      "path": "analysis/ruby-fr-rev0-title-groudon-load.json",
+      "sha256": "091d669e5876ed9d7df9ee32779fb8fc9e0479d264420599e206de01ea0bfce6"
+    },
+    {
+      "path": "analysis/ruby-it-rev0-title-groudon-load.json",
+      "sha256": "54f5913863d2e2b9577826f2b92456f33adee171fa798d9e0254b274f23072e1"
+    },
+    {
+      "path": "analysis/ruby-jp-rev0-title-groudon-load.json",
+      "sha256": "d42820ca91ed4f5fe8815d06cdaf67ee25846b478515e3dbf784bfb3849128be"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

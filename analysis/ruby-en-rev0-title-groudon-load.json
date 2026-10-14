@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "source_offset": 3748432,
+    "source_pointer": 137966160,
+    "decompressed_length": 8192
+  },
+  "pointer_locations": [
+    508544
+  ],
+  "thumb_references": [
+    {
+      "instruction_offset": 508422,
+      "literal_offset": 508544,
+      "destination_register": 0,
+      "destination_literal_offset": 508548,
+      "destination": 100696064,
+      "call_offset": 508426,
+      "call_target": 136185840,
+      "loader_sequence_length": 8,
+      "loader_sequence_sha256": "5c15d7bdee2e423cb6002d4757431ee1f319cbfeb8622e3ddae1f01392b7744b"
+    }
+  ],
+  "raw_bytes_published": false,
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e",
+  "asset_report": "analysis/ruby-en-rev0-title-groudon.json"
+}
