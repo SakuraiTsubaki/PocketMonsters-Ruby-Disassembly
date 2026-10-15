@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "releases": [
+    "ruby-jp-rev0",
+    "ruby-en-rev0",
+    "ruby-en-rev1",
+    "ruby-en-rev2",
+    "ruby-de-rev0",
+    "ruby-de-rev1",
+    "ruby-fr-rev0",
+    "ruby-fr-rev1",
+    "ruby-it-rev0",
+    "ruby-it-rev1",
+    "ruby-es-rev0",
+    "ruby-es-rev1"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_rng.py",
+    "tool_sha256": "e3dbe698aefd7acbe469fae096361c2d965d677c6ef927dbfb08c9b230b43309"
+  },
+  "outputs": [
+    {
+      "path": "src/random.asm",
+      "sha256": "f42dc85caa4e216e566485aacc12f69fada64e408c2613e65dd71cc18bdc1dbe"
+    },
+    {
+      "path": "analysis/ruby-jp-rev0-rng.json",
+      "sha256": "fe2ae07cafee373423cf9e88ede3cd572e7e7400b4a17efd71bddc64a54ac3c2"
+    },
+    {
+      "path": "analysis/ruby-en-rev0-rng.json",
+      "sha256": "7390ece0d0dc5297da2ab9bdbf5c983ba29ccbc371dfde5a1106f4e20c37897b"
+    },
+    {
+      "path": "analysis/ruby-en-rev1-rng.json",
+      "sha256": "25b27a1988e5fe6ac68bd406c45f555abe5dbedc33269f87d75c9557e0eaaae3"
+    },
+    {
+      "path": "analysis/ruby-en-rev2-rng.json",
+      "sha256": "bdf99b80be1a1ef308ac3488daad226d030078cf6edbc3a01acb98339f8a44a0"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-rng.json",
+      "sha256": "ffb5b209d2a5884e3a1a33321e177269b95cc953f170dee9ed4ff50ff2313831"
+    },
+    {
+      "path": "analysis/ruby-de-rev1-rng.json",
+      "sha256": "af436ccd38fd46cfd765210bf90ce6428f1720bf37cfc73b2445392ebf902b7f"
+    },
+    {
+      "path": "analysis/ruby-fr-rev0-rng.json",
+      "sha256": "9b635cca6e67e27e695e233c610f939fa428e492c489784d957db160f7649ba5"
+    },
+    {
+      "path": "analysis/ruby-fr-rev1-rng.json",
+      "sha256": "6f6abdd17a60d76968a70306d259f2fceffc3680749fdc8647b6c7cb56d8dc4e"
+    },
+    {
+      "path": "analysis/ruby-it-rev0-rng.json",
+      "sha256": "c46b4e72e14172439de9e28ee6980629ead63e6eaa199f15839ca079304fa48e"
+    },
+    {
+      "path": "analysis/ruby-it-rev1-rng.json",
+      "sha256": "031a935fcd427c3652b897ecb7533291a969a67af58cf1635c7d3bdefbeac306"
+    },
+    {
+      "path": "analysis/ruby-es-rev0-rng.json",
+      "sha256": "b1822f01bb497dcf966bafa5c150b7b0a947210adb40be24c45399a0603f534c"
+    },
+    {
+      "path": "analysis/ruby-es-rev1-rng.json",
+      "sha256": "8e3f9b2f5bf858166ef17aaf47268fc04d70e968b9ce056106204b3952f8685a"
+    },
+    {
+      "path": "research/rng-reconstruction.md",
+      "sha256": "822125615f761fc056083fa6ec81bd0ae68e00e95aa8b6cd232c7dbd58869a53"
+    },
+    {
+      "path": "tests/test_rng_reconstruction.py",
+      "sha256": "0a03eab38e3ff3cafd235b01de3d2b19bfa4ac8646183cf2b5b294cda5ae15cb"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
