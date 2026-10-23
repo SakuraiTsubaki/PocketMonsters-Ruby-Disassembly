@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Ruby",
+  "axis": "Disassembly",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "variant": "rs",
+  "functions": [
+    "write_word_to_mem",
+    "copy_word_to_mem"
+  ],
+  "releases": [
+    {
+      "id": "axv-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "origin_reference": true,
+      "evidence": {
+        "map": "analysis/axv-j-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-j-rev0-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-j-rev0-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x0804FF74",
+          "range_end_exclusive": "0x0804FF84",
+          "rom_code_range": {
+            "start_offset": 327540,
+            "end_offset_exclusive": 327556,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-j-rev0-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x0804FF84",
+          "range_end_exclusive": "0x0804FFA0",
+          "rom_code_range": {
+            "start_offset": 327556,
+            "end_offset_exclusive": 327584,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-j-rev0-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-e-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-e-rev0-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-e-rev0-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x08052D00",
+          "range_end_exclusive": "0x08052D10",
+          "rom_code_range": {
+            "start_offset": 339200,
+            "end_offset_exclusive": 339216,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-e-rev0-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x08052D10",
+          "range_end_exclusive": "0x08052D2C",
+          "rom_code_range": {
+            "start_offset": 339216,
+            "end_offset_exclusive": 339244,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-e-rev0-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-e-rev1-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-e-rev1-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-e-rev1-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x08052D20",
+          "range_end_exclusive": "0x08052D30",
+          "rom_code_range": {
+            "start_offset": 339232,
+            "end_offset_exclusive": 339248,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-e-rev1-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x08052D30",
+          "range_end_exclusive": "0x08052D4C",
+          "rom_code_range": {
+            "start_offset": 339248,
+            "end_offset_exclusive": 339276,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-e-rev1-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-e-rev2-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-e-rev2-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-e-rev2-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x08052D20",
+          "range_end_exclusive": "0x08052D30",
+          "rom_code_range": {
+            "start_offset": 339232,
+            "end_offset_exclusive": 339248,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-e-rev2-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x08052D30",
+          "range_end_exclusive": "0x08052D4C",
+          "rom_code_range": {
+            "start_offset": 339248,
+            "end_offset_exclusive": 339276,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-e-rev2-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-d-rev0-debug",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "debug",
+      "sha256": "548e9db988d387f8876a0aa40ea1ecb6f1110a8a550413e1861c9656fff7427a",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-d-rev0-debug-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-d-rev0-debug-write-word-to-mem-cfg.json",
+          "analysis/axv-d-rev0-debug-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x08057230",
+          "range_end_exclusive": "0x08057240",
+          "rom_code_range": {
+            "start_offset": 356912,
+            "end_offset_exclusive": 356928,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-d-rev0-debug-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x08057240",
+          "range_end_exclusive": "0x0805725C",
+          "rom_code_range": {
+            "start_offset": 356928,
+            "end_offset_exclusive": 356956,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-d-rev0-debug-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "22b28a91be484178236d7f39d64210205698b417394913e089b47796c998fa75",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-d-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-d-rev0-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-d-rev0-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x08053040",
+          "range_end_exclusive": "0x08053050",
+          "rom_code_range": {
+            "start_offset": 340032,
+            "end_offset_exclusive": 340048,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-d-rev0-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x08053050",
+          "range_end_exclusive": "0x0805306C",
+          "rom_code_range": {
+            "start_offset": 340048,
+            "end_offset_exclusive": 340076,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-d-rev0-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e0b620d576bc503e083bb9d2af1f5ffc40127b84e6ca734e3c45534d0d008043",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-d-rev1-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-d-rev1-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-d-rev1-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x08053040",
+          "range_end_exclusive": "0x08053050",
+          "rom_code_range": {
+            "start_offset": 340032,
+            "end_offset_exclusive": 340048,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-d-rev1-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x08053050",
+          "range_end_exclusive": "0x0805306C",
+          "rom_code_range": {
+            "start_offset": 340048,
+            "end_offset_exclusive": 340076,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-d-rev1-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "160185eb928c649b0bb5cfbda6d3cb5239b474b69c0a6b61d939bbfd546177f7",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-f-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-f-rev0-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-f-rev0-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x0805312C",
+          "range_end_exclusive": "0x0805313C",
+          "rom_code_range": {
+            "start_offset": 340268,
+            "end_offset_exclusive": 340284,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-f-rev0-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x0805313C",
+          "range_end_exclusive": "0x08053158",
+          "rom_code_range": {
+            "start_offset": 340284,
+            "end_offset_exclusive": 340312,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-f-rev0-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "9678645ca67932a42c92b1d6bac118925a6be9f67135ae8fe7747df85cdabdd0",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-f-rev1-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-f-rev1-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-f-rev1-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x0805312C",
+          "range_end_exclusive": "0x0805313C",
+          "rom_code_range": {
+            "start_offset": 340268,
+            "end_offset_exclusive": 340284,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-f-rev1-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x0805313C",
+          "range_end_exclusive": "0x08053158",
+          "rom_code_range": {
+            "start_offset": 340284,
+            "end_offset_exclusive": 340312,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-f-rev1-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "61844250fc2766dbab163c84e277c50e3a0b35d6f2defb491a2d38def0ef2ab7",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-i-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-i-rev0-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-i-rev0-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x08053054",
+          "range_end_exclusive": "0x08053064",
+          "rom_code_range": {
+            "start_offset": 340052,
+            "end_offset_exclusive": 340068,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-i-rev0-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x08053064",
+          "range_end_exclusive": "0x08053080",
+          "rom_code_range": {
+            "start_offset": 340068,
+            "end_offset_exclusive": 340096,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-i-rev0-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "be116b6fa8d8c12d7ccff3faefd5defd886faa427ff2c85c06d245cbe4e531b2",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-i-rev1-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-i-rev1-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-i-rev1-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x08053054",
+          "range_end_exclusive": "0x08053064",
+          "rom_code_range": {
+            "start_offset": 340052,
+            "end_offset_exclusive": 340068,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-i-rev1-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x08053064",
+          "range_end_exclusive": "0x08053080",
+          "rom_code_range": {
+            "start_offset": 340068,
+            "end_offset_exclusive": 340096,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-i-rev1-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b03c3d0230889a40615371bd616f02160dd1e33bb116659d72d98c27462c40d0",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-s-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-s-rev0-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-s-rev0-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x0805313C",
+          "range_end_exclusive": "0x0805314C",
+          "rom_code_range": {
+            "start_offset": 340284,
+            "end_offset_exclusive": 340300,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-s-rev0-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x0805314C",
+          "range_end_exclusive": "0x08053168",
+          "rom_code_range": {
+            "start_offset": 340300,
+            "end_offset_exclusive": 340328,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-s-rev0-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "axv-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0db39958c19abcedc7670fb16fd3274a5b205df794eb7491bea0580aa752e095",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axv-s-rev1-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/axv-s-rev1-retail-write-word-to-mem-cfg.json",
+          "analysis/axv-s-rev1-retail-copy-word-to-mem-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "write_word_to_mem",
+          "address": "0x0805313C",
+          "range_end_exclusive": "0x0805314C",
+          "rom_code_range": {
+            "start_offset": 340284,
+            "end_offset_exclusive": 340300,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-s-rev1-retail-write-word-to-mem-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "copy_word_to_mem",
+          "address": "0x0805314C",
+          "range_end_exclusive": "0x08053168",
+          "rom_code_range": {
+            "start_offset": 340300,
+            "end_offset_exclusive": 340328,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/axv-s-rev1-retail-copy-word-to-mem-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
