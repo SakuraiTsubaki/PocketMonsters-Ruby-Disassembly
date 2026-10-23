@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Ruby",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_header_logo.py",
+    "tool_sha256": "eb2e5b89a999e23e7f58721a2fd62c3ce667cba58406e2ee7e17617750a1aa41",
+    "decoder": "tools/extract_gba_header_logo.py",
+    "decoder_sha256": "5f12c4e7e40aa81ff2d7a71cea2b4b59d0b2a79663bb22b07a3f62d62ee55245"
+  },
+  "outputs": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "analysis/ruby-jp-header-logo.json",
+      "sha256": "9fa167f0106efe828d0f2124c0c89a53cc097cd234ca68c533b5f594835e5101"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-header-logo.json",
+      "sha256": "ec75d8015f036d1054cab1c812bf8ccad65a09cd67bbcfb7c6033a7734bf4b21"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-header-logo.json",
+      "sha256": "edb7c8a7e7ff4ab5df45e790fce647d7027f06fc7a9ed68ed24b336364b28037"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-header-logo.json",
+      "sha256": "7542ada37a787240f4e53c793b1684bf3264c5a48ae9a101a657c1d588af6241"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-header-logo.json",
+      "sha256": "29f3593426bc88fa81038f3bb0d94597d676ad6499e24724cd60dfc79741d2e0"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-header-logo.json",
+      "sha256": "1353ad9e66ca73bc9048e93eab1621570d0074ca2385dc697bf9c21a97fba70e"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-header-logo.json",
+      "sha256": "f3f3f1644e8b4828e8d6164565df8978ef962cdcc66622aec43f0e3c8ec9ce5c"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-header-logo.json",
+      "sha256": "8e8bcd91a1c4e26cc87c7cbb55532b3cba6a8c52ba924d0006e2aa4c64149ced"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-header-logo.json",
+      "sha256": "885aa64e70e8ae46825a65df35ece37873c97831afaed8f6798003d8b203fb7b"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-header-logo.json",
+      "sha256": "5a1d9f546c2d2c8daa49844829ef3434b6888d6220bf5d7b583f3395c154bdc1"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-header-logo.json",
+      "sha256": "69385dab5ed92044599c19d647431a963c3b8199a252bebbb0c1b2a19abd1190"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-header-logo.json",
+      "sha256": "90d5b19bd56e9a612e2b75be829cf2d3cb44ddb59a762fdf3718113da7ecb8bb"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-header-logo.json",
+      "sha256": "584cac9b8e4e3ed5d0e7beb693a733bcb6629d584208f19b1caafa84211d06ee"
+    },
+    {
+      "path": "analysis/header-logo-catalog-summary.json",
+      "sha256": "dbbf1e125502347ec1b31f130f0848ba51cc3987a7d80a66cd3c271c7cbcf519"
+    },
+    {
+      "path": "research/header-logo-catalog.md",
+      "sha256": "f416d721dedd068ede1b87ea7e973d7bafe1520d864561184252456395953353"
+    },
+    {
+      "path": "tests/test_header_logo_catalog.py",
+      "sha256": "943e3828094df75c36bccf6082832eab093c49a3e6f3d2bc3b41e6c6de97f4c4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
