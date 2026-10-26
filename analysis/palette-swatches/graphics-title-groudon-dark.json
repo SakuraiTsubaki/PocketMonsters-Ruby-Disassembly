@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Ruby",
+  "asset": "JASC palette swatch",
+  "language": "Japanese",
+  "origin_reference": true,
+  "source": {
+    "path": "graphics/title/groudon-dark.pal",
+    "sha256": "c755a5fef1e0a6d9a03afba725ace4309ca314de8fc383d72bf1282fc3ac75d0",
+    "format": "JASC-PAL 0100",
+    "color_count": 16,
+    "provenance_manifests": [
+      {
+        "path": "manifests/title-groudon.json",
+        "sha256": "e082e96bb90f0c8cf0256ca4e4a5877dd21d3bf50a5ed4ae7809e858991a4f9e"
+      }
+    ]
+  },
+  "output": {
+    "path": "graphics/title/groudon-dark-swatch.png",
+    "sha256": "64e363c00272a1101589dac455b400fe3b35a4c4f2adaea817ec0ab42d384a2e",
+    "format": "PNG RGB8",
+    "width": 256,
+    "height": 16,
+    "columns": 16,
+    "cell_size": 16
+  },
+  "raw_rom_bytes_included": false
+}

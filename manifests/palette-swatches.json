@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Ruby",
+  "asset": "JASC palette swatches",
+  "palette_count": 1,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/render_jasc_palette_catalog.py",
+    "tool_sha256": "69b37972c873fd5b07c26ed0a2282ec5df9dfddc3dd0b77b712e62f67004e306"
+  },
+  "outputs": [
+    {
+      "path": "graphics/title/groudon-dark.pal",
+      "sha256": "c755a5fef1e0a6d9a03afba725ace4309ca314de8fc383d72bf1282fc3ac75d0"
+    },
+    {
+      "path": "graphics/title/groudon-dark-swatch.png",
+      "sha256": "64e363c00272a1101589dac455b400fe3b35a4c4f2adaea817ec0ab42d384a2e"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-title-groudon-dark.json",
+      "sha256": "bd30eb3fe3fbbfd4e302fac35c240ca40f20ff33df6413c34b706fbafa65388f"
+    },
+    {
+      "path": "analysis/palette-swatch-catalog.json",
+      "sha256": "3d5ec87bc8249a06864d7c8d4ed07dfaab1566c68cf7a30cba22dd3671317e80"
+    },
+    {
+      "path": "research/palette-swatches.md",
+      "sha256": "3fc2388c63f256bd14a6429ea529e91ab7734395822aa3c19479748e1898d65e"
+    },
+    {
+      "path": "tests/test_palette_swatches.py",
+      "sha256": "bbb11226e874aa49199cdd56cbdeaf391b8169ee35767ba572672a01d2be9114"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
