@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "axis": "disassembly",
+  "game": "Pokemon Ruby",
+  "function": "SeedRngWithRtc",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "source": "src/seed_rng_with_rtc.s",
+  "releases": [
+    {
+      "id": "axv-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "origin_reference": true,
+      "address": "0x080003E8",
+      "code_sha256": "414b9289eaa06ccc648464e5cc564789a10d2a0e538acdcb822d55f487431cd7",
+      "literal_address": "0x08000400",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x080003EA",
+          "target": "0x08006C98"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x080003F8",
+          "target": "0x0803E150"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-j-rev0-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-j-rev0-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e",
+      "origin_reference": false,
+      "address": "0x080003E4",
+      "code_sha256": "77818442ec635650219938dc19e5cde8fe2bbbfe82e5795b2cd7c703915d5283",
+      "literal_address": "0x080003FC",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x080003E6",
+          "target": "0x0800968C"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x080003F4",
+          "target": "0x08040EA4"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-e-rev0-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-e-rev0-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0",
+      "origin_reference": false,
+      "address": "0x080003E4",
+      "code_sha256": "d7611181f5117740a452e4c16a4a19109f44c5cbf4a6879ce1e660538797fae2",
+      "literal_address": "0x080003FC",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x080003E6",
+          "target": "0x0800968C"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x080003F4",
+          "target": "0x08040EC4"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-e-rev1-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-e-rev1-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c",
+      "origin_reference": false,
+      "address": "0x080003E4",
+      "code_sha256": "d7611181f5117740a452e4c16a4a19109f44c5cbf4a6879ce1e660538797fae2",
+      "literal_address": "0x080003FC",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x080003E6",
+          "target": "0x0800968C"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x080003F4",
+          "target": "0x08040EC4"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-e-rev2-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-e-rev2-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-d-rev0-debug",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "debug",
+      "sha256": "548e9db988d387f8876a0aa40ea1ecb6f1110a8a550413e1861c9656fff7427a",
+      "origin_reference": false,
+      "address": "0x08000518",
+      "code_sha256": "d0d9b0dfe48ff3b6c457543db970ebfb9b89a209d01af3db25208633106855f8",
+      "literal_address": "0x08000530",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x0800051A",
+          "target": "0x08009A28"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x08000528",
+          "target": "0x08045344"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-d-rev0-debug-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-d-rev0-debug-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "22b28a91be484178236d7f39d64210205698b417394913e089b47796c998fa75",
+      "origin_reference": false,
+      "address": "0x08000518",
+      "code_sha256": "39b7b537a2f832272404c1ebc17f537c367a75cda26f4d07b527db9c4e614a8a",
+      "literal_address": "0x08000530",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x0800051A",
+          "target": "0x08009858"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x08000528",
+          "target": "0x080411C8"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-d-rev0-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-d-rev0-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e0b620d576bc503e083bb9d2af1f5ffc40127b84e6ca734e3c45534d0d008043",
+      "origin_reference": false,
+      "address": "0x08000518",
+      "code_sha256": "39b7b537a2f832272404c1ebc17f537c367a75cda26f4d07b527db9c4e614a8a",
+      "literal_address": "0x08000530",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x0800051A",
+          "target": "0x08009858"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x08000528",
+          "target": "0x080411C8"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-d-rev1-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-d-rev1-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "160185eb928c649b0bb5cfbda6d3cb5239b474b69c0a6b61d939bbfd546177f7",
+      "origin_reference": false,
+      "address": "0x08000518",
+      "code_sha256": "5c62acff21d6436df7af185b32bea093f3612d9e5525683ddb1db39c95cd8761",
+      "literal_address": "0x08000530",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x0800051A",
+          "target": "0x08009858"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x08000528",
+          "target": "0x080412B4"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-f-rev0-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-f-rev0-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "9678645ca67932a42c92b1d6bac118925a6be9f67135ae8fe7747df85cdabdd0",
+      "origin_reference": false,
+      "address": "0x08000518",
+      "code_sha256": "5c62acff21d6436df7af185b32bea093f3612d9e5525683ddb1db39c95cd8761",
+      "literal_address": "0x08000530",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x0800051A",
+          "target": "0x08009858"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x08000528",
+          "target": "0x080412B4"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-f-rev1-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-f-rev1-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "61844250fc2766dbab163c84e277c50e3a0b35d6f2defb491a2d38def0ef2ab7",
+      "origin_reference": false,
+      "address": "0x08000518",
+      "code_sha256": "9cc386684fad236ca8fdc02360c8478f7c51d2df9ee76c885e8eaec49c75ef64",
+      "literal_address": "0x08000530",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x0800051A",
+          "target": "0x08009858"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x08000528",
+          "target": "0x080411DC"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-i-rev0-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-i-rev0-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "be116b6fa8d8c12d7ccff3faefd5defd886faa427ff2c85c06d245cbe4e531b2",
+      "origin_reference": false,
+      "address": "0x08000518",
+      "code_sha256": "9cc386684fad236ca8fdc02360c8478f7c51d2df9ee76c885e8eaec49c75ef64",
+      "literal_address": "0x08000530",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x0800051A",
+          "target": "0x08009858"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x08000528",
+          "target": "0x080411DC"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-i-rev1-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-i-rev1-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b03c3d0230889a40615371bd616f02160dd1e33bb116659d72d98c27462c40d0",
+      "origin_reference": false,
+      "address": "0x08000518",
+      "code_sha256": "5e0ff0edca5263e26442afa2ded98065542fb7d766eda8b1fcc6cf4ad9ec1c13",
+      "literal_address": "0x08000530",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x0800051A",
+          "target": "0x08009858"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x08000528",
+          "target": "0x080412C4"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-s-rev0-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-s-rev0-retail-seed-rng-with-rtc-cfg.json"
+      }
+    },
+    {
+      "id": "axv-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0db39958c19abcedc7670fb16fd3274a5b205df794eb7491bea0580aa752e095",
+      "origin_reference": false,
+      "address": "0x08000518",
+      "code_sha256": "5e0ff0edca5263e26442afa2ded98065542fb7d766eda8b1fcc6cf4ad9ec1c13",
+      "literal_address": "0x08000530",
+      "calls": [
+        {
+          "name": "RtcGetMinuteCount",
+          "source": "0x0800051A",
+          "target": "0x08009858"
+        },
+        {
+          "name": "SeedRng",
+          "source": "0x08000528",
+          "target": "0x080412C4"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/axv-s-rev1-retail-seed-rng-with-rtc-map.json",
+        "cfg": "analysis/axv-s-rev1-retail-seed-rng-with-rtc-cfg.json"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
