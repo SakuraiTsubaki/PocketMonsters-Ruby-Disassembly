@@ -1,1 +1,83 @@
-{"schema_version":1,"id":"ruby-jp-repeated-callback-cfg","input":{"release":"AXVJ-rev0","sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852","start_offset":"0x348","max_span":"0x100"},"output":{"path":"analysis/ruby-jp-repeated-callback-cfg.json","sha256":"611bff55e758b20abc42d1baed338b65e6d78a6a1ceccf95ca12f783f91e90e2"},"raw_rom_bytes_included":false}
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "evidence_kind": "repeated-callback-cfg",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_repeated_callback_cfg.py",
+    "tool_sha256": "f1dff748ed4465a847ead04997294002bf1c2b36d4321ee122885301303edeb4"
+  },
+  "outputs": [
+    {
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "analysis/repeated-callback-cfg-summary.json",
+      "sha256": "283fd293eedcfa80dfb98468e563d274e82ec1935fc8ba11787a0021fff68f83"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "f29754c3ff6f70cb4daad18de7125c97cce1fadb3e48856167cd30d97255f0e8"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "f784149cf5f6c695aa187f388d8c909da8363c704f26e4c22904bd09e83fd57e"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "e8b8caf590ea41b7ccf9cd37ac1f0c503f4b1929f6e969ea98c878f0809b0a80"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-repeated-callback-cfg-map.json",
+      "sha256": "bd3f5e2b02480184a0a3d50254770cab393885e408032b672950754f77439c76"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-repeated-callback-cfg-map.json",
+      "sha256": "f9304504bf95e7363367951078319064fc1e41c679cfea5182c7d939712ff997"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "833dc93b58b964553765984be9f3a63cc63f0e90ab7e7cb244af69ec507acf74"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "6c4ee1e6b736eb44fe285ee2cd7716248dcb20901813732779359b164124fb3b"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "f2a4a6f7a4f924563c10609f66ff191652edb2e21bf0b73c4523084e762a515b"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "dcb5392eac1037b70cd8b3db6ce0a9ee055abaef03f2db6e5e21713826480935"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "4fd8f0d1f8dd01cb9d1d309ba1f73cd516ab6c5bc565e1f6a641b1b65791b0f8"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "7f6512ecef61a64740c64149c67ff758b91d66973b8cb0323e8336a972d14099"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "6b641ecf1207591deea3cce6277420fcf449dcc1c054942e6b75cf7855a018e8"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "6a1c2a163b0e1e4180b6d336f337ac34ad8e4d06e4a27e261473d31f0bf4f266"
+    },
+    {
+      "path": "research/repeated-callback-cfg.md",
+      "sha256": "db7525864c43db956fd3226b93e81373569cd87b3ae37005b391581a2b83723e"
+    },
+    {
+      "path": "tests/test_repeated_callback_cfg.py",
+      "sha256": "56f4973c637726e48c69650cad4071cb286732e217c0f1773bbf6773ae7d3756"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
