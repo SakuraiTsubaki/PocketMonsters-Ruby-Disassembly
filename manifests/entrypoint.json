@@ -1,2 +1,87 @@
-{"schema_version":1,"id":"ruby-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852","offset":0,"length":4}],"outputs":[{"path":"analysis/ruby-jp-rev0-entrypoint.json","sha256":"2b5fcd2c7138402d1dcfc318eb9e5ff2420367704ae9ccfd7b3a5a961590d63b"},{"path":"src/rom_entry.s","sha256":"9fbd38b66604762a346799dd7210947ffab8f00350b9f525a2173696e2fe6acb"}]}
-
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "evidence_kind": "entrypoint",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
+  },
+  "outputs": [
+    {
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "src/rom_entry.s",
+      "sha256": "27a30e1068c28234649b61369463438d58eb4642c4e3c83261ec12942621888e"
+    },
+    {
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "1611b936fb8d67484bb47d994216f78da01e1d558311124a557118e1704c164c"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-entrypoint-map.json",
+      "sha256": "691d900fbb0d457265b22a2e8a1c1b0fb7fab3b3247236df8ffc7a1318686f03"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-entrypoint-map.json",
+      "sha256": "caa7dddde281bcc39ee2f7f947727269d2ab04308ee36674d32720d87801ee27"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-entrypoint-map.json",
+      "sha256": "7e3f5c0de58f1949a57d82a7dd16d3a7cc784081d95068550945405808250269"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-entrypoint-map.json",
+      "sha256": "6a9844e507b3eedb5e5cd9a90a6279933ae7863363d77289020259895001c958"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-entrypoint-map.json",
+      "sha256": "b93e65f4b67fb30cd7687494813c20c0ebfe49fc9bd052a15a6e29c115c6c196"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-entrypoint-map.json",
+      "sha256": "81fe4826af451c91b95e0d51383206236bbe9b317e114e8c007fe0867f8cc45b"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-entrypoint-map.json",
+      "sha256": "afcf1320025f1caf688559245c5ccdfe6da501e92c9d2c1cf23239e116b97ead"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-entrypoint-map.json",
+      "sha256": "7414b422baa0b748c91373a08d36f18b264d5c60def8d7cadd9fb776e31c2bc3"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-entrypoint-map.json",
+      "sha256": "897bd046976e6fde955a75875cf8ef8f19bb372cfe2007320d7261a88eab5d2c"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-entrypoint-map.json",
+      "sha256": "ac359b083aa890a580f8fcb656e4d95097ac4ad3f49c0710fcd5961d1d31e607"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-entrypoint-map.json",
+      "sha256": "53804194d5bba8696161982e322ada94ca1e82e3185316dd99bfcd76b51cc112"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-entrypoint-map.json",
+      "sha256": "0baf478a696c51cbac29c704747f26a6f6abc507c7e5278893dcb6af83fb7083"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-entrypoint-map.json",
+      "sha256": "028f2ab6779c80fe0ea6a167fa2845e178645208cde800afccb23f23a5cf69f4"
+    },
+    {
+      "path": "research/entrypoint-reconstruction.md",
+      "sha256": "66d0e83d1381eee2c8fbf502b8cd71d007adc42871c1f32d448794986f37847b"
+    },
+    {
+      "path": "tests/test_entrypoint.py",
+      "sha256": "ef47231fd98bebad2e5825e79932fe7245c86d85a7c082841e2b6ca75fa5209a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

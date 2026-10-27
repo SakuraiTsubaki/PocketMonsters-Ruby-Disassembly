@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axv-i-rev0-retail",
+    "sha256": "61844250fc2766dbab163c84e277c50e3a0b35d6f2defb491a2d38def0ef2ab7"
+  },
+  "origin_reference": false,
+  "raw_rom_bytes_included": false,
+  "source": "src/thumb_entry_reachable.s",
+  "function": {
+    "name": "thumb_entry_reachable",
+    "address": "0x08000380",
+    "range_end_exclusive": "0x0800046E",
+    "nonreturning": true,
+    "rom_code_range": {
+      "start_offset": 896,
+      "end_offset_exclusive": 1134,
+      "length": 238,
+      "sha256": "28e41f1b2e20f3eb5d66fd1b89d3ca59fd0e0a5543f96cd216bf38dfd08fbf85",
+      "raw_bytes_published": false
+    }
+  },
+  "control_flow": {
+    "instruction_halfwords": 102,
+    "edge_count": 18,
+    "edge_kinds": {
+      "branch": 2,
+      "conditional-fallthrough": 8,
+      "conditional-taken": 8
+    },
+    "direct_call_count": 20,
+    "return_count": 0,
+    "loop_back_edge": {
+      "source": "0x0800046C",
+      "target": "0x080003D8"
+    },
+    "canonical_instruction_bytes_sha256": "58d642f10232dc0e8b34d5617e276c9b294a7a160b627a148484f3437e067153",
+    "raw_halfwords_omitted": true
+  }
+}
