@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "root": "graphics",
+  "asset_count": 9,
+  "png_count": 8,
+  "metadata_count": 0,
+  "palette_count": 1,
+  "official_language_priority": [
+    "Japanese",
+    "Korean",
+    "English",
+    "German",
+    "French",
+    "Italian",
+    "Spanish"
+  ],
+  "assets": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "size": 774,
+      "format": "PNG",
+      "category": "header",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/header-logo-catalog.json",
+          "sha256": "a37a456cd2a255a3d2aac22f60b3f1f6bd58bc99ebecfcfbde390409dd2fcf4e"
+        },
+        {
+          "path": "analysis/axv-d-rev0-debug-header-logo.json",
+          "sha256": "29f3593426bc88fa81038f3bb0d94597d676ad6499e24724cd60dfc79741d2e0"
+        },
+        {
+          "path": "analysis/axv-d-rev0-retail-header-logo.json",
+          "sha256": "1353ad9e66ca73bc9048e93eab1621570d0074ca2385dc697bf9c21a97fba70e"
+        },
+        {
+          "path": "analysis/axv-d-rev1-retail-header-logo.json",
+          "sha256": "f3f3f1644e8b4828e8d6164565df8978ef962cdcc66622aec43f0e3c8ec9ce5c"
+        },
+        {
+          "path": "analysis/axv-e-rev0-retail-header-logo.json",
+          "sha256": "ec75d8015f036d1054cab1c812bf8ccad65a09cd67bbcfb7c6033a7734bf4b21"
+        },
+        {
+          "path": "analysis/axv-e-rev1-retail-header-logo.json",
+          "sha256": "edb7c8a7e7ff4ab5df45e790fce647d7027f06fc7a9ed68ed24b336364b28037"
+        },
+        {
+          "path": "analysis/axv-e-rev2-retail-header-logo.json",
+          "sha256": "7542ada37a787240f4e53c793b1684bf3264c5a48ae9a101a657c1d588af6241"
+        },
+        {
+          "path": "analysis/axv-f-rev0-retail-header-logo.json",
+          "sha256": "8e8bcd91a1c4e26cc87c7cbb55532b3cba6a8c52ba924d0006e2aa4c64149ced"
+        },
+        {
+          "path": "analysis/axv-f-rev1-retail-header-logo.json",
+          "sha256": "885aa64e70e8ae46825a65df35ece37873c97831afaed8f6798003d8b203fb7b"
+        },
+        {
+          "path": "analysis/axv-i-rev0-retail-header-logo.json",
+          "sha256": "5a1d9f546c2d2c8daa49844829ef3434b6888d6220bf5d7b583f3395c154bdc1"
+        },
+        {
+          "path": "analysis/axv-i-rev1-retail-header-logo.json",
+          "sha256": "69385dab5ed92044599c19d647431a963c3b8199a252bebbb0c1b2a19abd1190"
+        },
+        {
+          "path": "analysis/axv-s-rev0-retail-header-logo.json",
+          "sha256": "90d5b19bd56e9a612e2b75be829cf2d3cb44ddb59a762fdf3718113da7ecb8bb"
+        },
+        {
+          "path": "analysis/axv-s-rev1-retail-header-logo.json",
+          "sha256": "584cac9b8e4e3ed5d0e7beb693a733bcb6629d584208f19b1caafa84211d06ee"
+        },
+        {
+          "path": "analysis/header-logo-catalog-summary.json",
+          "sha256": "dbbf1e125502347ec1b31f130f0848ba51cc3987a7d80a66cd3c271c7cbcf519"
+        },
+        {
+          "path": "analysis/ruby-jp-header-logo.json",
+          "sha256": "9fa167f0106efe828d0f2124c0c89a53cc097cd234ca68c533b5f594835e5101"
+        }
+      ],
+      "png": {
+        "width": 416,
+        "height": 64,
+        "bit_depth": 8,
+        "color_type": "truecolor-alpha",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/groudon-dark-en.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6",
+      "size": 1954,
+      "format": "PNG",
+      "category": "title",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-groudon-global.json",
+          "sha256": "2e2f151339c423adf9df1944e2ed58e3f62bc59296bbef8f39ae935175f4df13"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/groudon-dark-de.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6",
+      "size": 1954,
+      "format": "PNG",
+      "category": "title",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-groudon-global.json",
+          "sha256": "2e2f151339c423adf9df1944e2ed58e3f62bc59296bbef8f39ae935175f4df13"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/groudon-dark-fr.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6",
+      "size": 1954,
+      "format": "PNG",
+      "category": "title",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-groudon-global.json",
+          "sha256": "2e2f151339c423adf9df1944e2ed58e3f62bc59296bbef8f39ae935175f4df13"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/groudon-dark-it.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6",
+      "size": 1954,
+      "format": "PNG",
+      "category": "title",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-groudon-global.json",
+          "sha256": "2e2f151339c423adf9df1944e2ed58e3f62bc59296bbef8f39ae935175f4df13"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/groudon-dark-es.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6",
+      "size": 1954,
+      "format": "PNG",
+      "category": "title",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-groudon-global.json",
+          "sha256": "2e2f151339c423adf9df1944e2ed58e3f62bc59296bbef8f39ae935175f4df13"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/groudon-dark-swatch.png",
+      "sha256": "64e363c00272a1101589dac455b400fe3b35a4c4f2adaea817ec0ab42d384a2e",
+      "size": 181,
+      "format": "PNG",
+      "category": "title",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/palette-swatches.json",
+          "sha256": "dcfce709dad3e222826a5a0fd6b6f40cd6d1dfbe326269186c9eab20ed6a8377"
+        },
+        {
+          "path": "analysis/palette-swatch-catalog.json",
+          "sha256": "3d5ec87bc8249a06864d7c8d4ed07dfaab1566c68cf7a30cba22dd3671317e80"
+        },
+        {
+          "path": "analysis/palette-swatches/graphics-title-groudon-dark.json",
+          "sha256": "bd30eb3fe3fbbfd4e302fac35c240ca40f20ff33df6413c34b706fbafa65388f"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 16,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/groudon-dark.pal",
+      "sha256": "c755a5fef1e0a6d9a03afba725ace4309ca314de8fc383d72bf1282fc3ac75d0",
+      "size": 139,
+      "format": "JASC-PAL",
+      "category": "title",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/palette-swatches.json",
+          "sha256": "dcfce709dad3e222826a5a0fd6b6f40cd6d1dfbe326269186c9eab20ed6a8377"
+        },
+        {
+          "path": "manifests/title-groudon.json",
+          "sha256": "e082e96bb90f0c8cf0256ca4e4a5877dd21d3bf50a5ed4ae7809e858991a4f9e"
+        },
+        {
+          "path": "analysis/palette-swatch-catalog.json",
+          "sha256": "3d5ec87bc8249a06864d7c8d4ed07dfaab1566c68cf7a30cba22dd3671317e80"
+        },
+        {
+          "path": "analysis/palette-swatches/graphics-title-groudon-dark.json",
+          "sha256": "bd30eb3fe3fbbfd4e302fac35c240ca40f20ff33df6413c34b706fbafa65388f"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/title/groudon-dark.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6",
+      "size": 1954,
+      "format": "PNG",
+      "category": "title",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-groudon.json",
+          "sha256": "e082e96bb90f0c8cf0256ca4e4a5877dd21d3bf50a5ed4ae7809e858991a4f9e"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

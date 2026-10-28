@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "asset_count": 9,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_public_graphics.py",
+    "tool_sha256": "0bb31b5f9c6f2127467ea25f582a2d7a59e13b36d8c1f81c8d49e740b5c86819"
+  },
+  "inputs": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/title/groudon-dark-en.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6"
+    },
+    {
+      "path": "graphics/title/groudon-dark-de.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6"
+    },
+    {
+      "path": "graphics/title/groudon-dark-fr.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6"
+    },
+    {
+      "path": "graphics/title/groudon-dark-it.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6"
+    },
+    {
+      "path": "graphics/title/groudon-dark-es.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6"
+    },
+    {
+      "path": "graphics/title/groudon-dark-swatch.png",
+      "sha256": "64e363c00272a1101589dac455b400fe3b35a4c4f2adaea817ec0ab42d384a2e"
+    },
+    {
+      "path": "graphics/title/groudon-dark.pal",
+      "sha256": "c755a5fef1e0a6d9a03afba725ace4309ca314de8fc383d72bf1282fc3ac75d0"
+    },
+    {
+      "path": "graphics/title/groudon-dark.png",
+      "sha256": "2bd83dbd13c4827e3df0d16b1207b8c8fc49d1b65f8b6fc3341d60cb55f17fc6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/public-graphics-catalog.json",
+      "sha256": "3bdc0958396ff5e3f5e8a32442da85c5f96d42b1dc4fc96568043c0f6df83ab1"
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "83e5692401ecf7c93b633eb0bec053db0e352f87e6467e8d8c5219ac8fb72d7f"
+    },
+    {
+      "path": "research/public-graphics-catalog.md",
+      "sha256": "d3f15c9c097a3673097541fe5ca42035e55131a760543d28b9062dfead8ad0e9"
+    },
+    {
+      "path": "tests/test_public_graphics_catalog.py",
+      "sha256": "618cd99bb42f701d9a443fed514b25d4489710e9e16619b8b27734befb5fc30f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
