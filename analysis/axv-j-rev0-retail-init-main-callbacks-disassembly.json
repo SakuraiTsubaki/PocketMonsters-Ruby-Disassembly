@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axv-j-rev0-retail",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "origin_reference": true,
+  "axis": "Disassembly",
+  "source": "src/init_main_callbacks.s",
+  "source_sha256": "a362889e2076ae26349a0eb1f059dbcd561949c3a628bdca98e6c025ba83d6dd",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x0800024C",
+    "boot_call_source": "0x08000276",
+    "rule": "direct boot call immediately after CheckForFlashMemory"
+  },
+  "function": {
+    "name": "InitMainCallbacks",
+    "address": "0x08000390",
+    "range_end_exclusive": "0x080003A6",
+    "rom_code_range": {
+      "start_offset": 912,
+      "end_offset_exclusive": 934,
+      "length": 22,
+      "sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetMainCallback2",
+        "source": "0x0800039E",
+        "target": "0x080003D4"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 11,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "rs-base",
+    "zeroed_state": [
+      "gMain.vblankCounter1",
+      "gMain.vblankCounter2",
+      "gMain.callback1"
+    ],
+    "initialized_pointers": [],
+    "callback2_initializer": "copyright-screen initializer"
+  },
+  "cross_reference": {
+    "check_flash_memory_map": "analysis/axv-j-rev0-retail-check-flash-memory-disassembly.json",
+    "check_flash_memory_map_sha256": "c5f296f7e4fc582060605e13c5e36be3c21b00dcb1ca8eb79eb098eebaebc63a"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}

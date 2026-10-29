@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "axis": "Disassembly",
+  "function": "InitMainCallbacks",
+  "family_profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_main_callbacks.py",
+    "tool_sha256": "6fc93ef816e04f780ef724c37044e912bb0e925192036342ec7755622b4f8080"
+  },
+  "outputs": [
+    {
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "src/init_main_callbacks.s",
+      "sha256": "a362889e2076ae26349a0eb1f059dbcd561949c3a628bdca98e6c025ba83d6dd"
+    },
+    {
+      "path": "analysis/init-main-callbacks-disassembly-summary.json",
+      "sha256": "7355a4f1bb237641288c882b2896d3fbba3eb6f4d8ac9fc49413129974f66e54"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "9c2ce20e32757a903621bd922ff3c4d6bd13c4bdf8c1cf623cc106e6faacc7f5"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "ed3473dc36234a5a1465c1cadabc8039a9c866ef83fe4173aa646bbdfe0b9720"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "86afca81c939421b5b70acce8c356fa07aa7ddb89b253f2a1856a0bf98553b82"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-init-main-callbacks-disassembly.json",
+      "sha256": "d052f1eed6670f0bce958e9a18a2685ae029fc1012078d99828f2c5637edb20e"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-init-main-callbacks-disassembly.json",
+      "sha256": "f609cc7d79bd32f9e0bb0a1391c9cf27645aee293aa92cdd57587a5a54d27c48"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "dd3393545d8f421763b7641ea98402e35729c0c0ed27fc80eda4c341b5c715bc"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "2fcef3d30c30119f744f443b1dbd631d4cb4d8403032a0b94c329c28a20d264e"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "391a75d52037f4f84a561fdd772619b23d93742e2f2a31559e2a31a336c7a23c"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "dca0354249114091bc6d68bed5391b69157588ac0fda190a890ac91ad3973c2a"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "3837538a6da568c61adbef0cbbdd2e651041f9a312ed415dfa523c8e683709fa"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "fb656bfe82075031d49ea1176f5617f3250a207928bf9b2cd75e5401776ac4f2"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "d9f0fc1330f4c47ffd9dcb901202cb18f6ed06ce65ab9a411260f833b66c22e4"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "0851f456b996cb58049b61aa6a5d87a2b4f350b18a25908faceba3a297e90545"
+    },
+    {
+      "path": "research/init-main-callbacks-disassembly.md",
+      "sha256": "263ec3e634bf6c5aa4c0ac184b7cb2e6bf77a209df88acac3c87263950735a1d"
+    },
+    {
+      "path": "tests/test_init_main_callbacks_disassembly.py",
+      "sha256": "a74859cdb1092ab74c8e34cb9fe40d7f817959397d44d3d07e8da1a595187fdf"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

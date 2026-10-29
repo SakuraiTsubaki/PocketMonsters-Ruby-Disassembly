@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axv-e-rev1-retail",
+    "sha256": "0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0"
+  },
+  "origin_reference": false,
+  "axis": "Disassembly",
+  "source": "src/init_main_callbacks.s",
+  "source_sha256": "a362889e2076ae26349a0eb1f059dbcd561949c3a628bdca98e6c025ba83d6dd",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x0800024C",
+    "boot_call_source": "0x08000274",
+    "rule": "direct boot call immediately after CheckForFlashMemory"
+  },
+  "function": {
+    "name": "InitMainCallbacks",
+    "address": "0x08000388",
+    "range_end_exclusive": "0x0800039E",
+    "rom_code_range": {
+      "start_offset": 904,
+      "end_offset_exclusive": 926,
+      "length": 22,
+      "sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetMainCallback2",
+        "source": "0x08000396",
+        "target": "0x080003CC"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 11,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "rs-base",
+    "zeroed_state": [
+      "gMain.vblankCounter1",
+      "gMain.vblankCounter2",
+      "gMain.callback1"
+    ],
+    "initialized_pointers": [],
+    "callback2_initializer": "copyright-screen initializer"
+  },
+  "cross_reference": {
+    "check_flash_memory_map": "analysis/axv-e-rev1-retail-check-flash-memory-disassembly.json",
+    "check_flash_memory_map_sha256": "106886f987d02057186f3cd13e41cb209d8f662905c796e95657ef87be7d6990"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
