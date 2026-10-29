@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "axis": "Disassembly",
+  "function": "InitMapMusic",
+  "family_profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_map_music.py",
+    "tool_sha256": "60b3160625669bae31e50dfea0812a61e3efa807a00ac9aabe6a18489b85e0f1"
+  },
+  "outputs": [
+    {
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "src/init_map_music.s",
+      "sha256": "a1b10ebeb64848c765dacd1d153e55c97727a8cf19f4119611d9f08f7e3dacb0"
+    },
+    {
+      "path": "analysis/init-map-music-disassembly-summary.json",
+      "sha256": "900768d2221ee8c77d0a52a53387c8daa923d93eab9d80d26f9c96e7fab266e0"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "466a917b28e03903984757ccd06d51de8f27d490eefbd8b91add2be0c3dab884"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "a763b240e475be5a3e208dcdabcdd8a9f8c93fbe8a963883d2b031e478ef0672"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-init-map-music-disassembly.json",
+      "sha256": "e05800565abcdeb3ee547486c350c3d380f6157bffc66e13eac6ab4dd89a397f"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-init-map-music-disassembly.json",
+      "sha256": "341a2ea2dcab538d60bdf843ea1b121d2232a966ed6021562e529192cabade45"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-init-map-music-disassembly.json",
+      "sha256": "4d59bff5a2461cc5edc31283a8dee4964f905aa1b0b3027a4610f0d1c98ed5da"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "282c39ad0cf09e953f8437e77c7ab901d8d2683aa2ecc31aeea818a7479a507b"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-init-map-music-disassembly.json",
+      "sha256": "56d42b734eff80affc8451208e29aafd5b6f54e345dc0dc02fe60304d139157b"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "864e9eaac546a2df9d1d3237c7dd4db527d26c5d0fe3a08ea3bee0b1f10bcc3c"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-init-map-music-disassembly.json",
+      "sha256": "a8bc588963a1c6d23460eda240b78acda6e9f7947cfe45e981d5735a9b7d389b"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "21eb1f152096a1328b6bafb6679b621914e071ebd36c7f612e81185a4a91fe9a"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-init-map-music-disassembly.json",
+      "sha256": "99f289f841808dbc2430d3778237aee59866d1192b02702380a020e0565d38a6"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "a6fb8f24d5268c9c0950e6e60e46b1ac9e076f6f224850118b3be0f52bdcd871"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-init-map-music-disassembly.json",
+      "sha256": "8476c5cfc09af26da863a2befbd5213199af0237f49750bae80aff050461d8ec"
+    },
+    {
+      "path": "research/init-map-music-disassembly.md",
+      "sha256": "a7cb7251e696dac484dfe589642e697e51f6f06222339c80e4d6f7871803132e"
+    },
+    {
+      "path": "tests/test_init_map_music_disassembly.py",
+      "sha256": "5eadf9a5b341fc8aad363273c3380bd02ccbb05fb8449d0d52927f9b746bf7c7"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
