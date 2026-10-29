@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "axis": "Disassembly",
+  "function": "InitFlashTimer",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_flash_timer.py",
+    "tool_sha256": "a4d18af09f24254928e24512860a78f1effa1615213af143a1b14da516231269"
+  },
+  "outputs": [
+    {
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "src/init_flash_timer.s",
+      "sha256": "0f60cb706881679b0c08ad9018eeba3f5cf5365006ad852844928498dfe1d120"
+    },
+    {
+      "path": "analysis/init-flash-timer-disassembly-summary.json",
+      "sha256": "4bd14e353242dd87d2ba9469d12f42788eec6f6a03bdf9936545877d8cb6ad53"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "4baab4137be978690266da45b7d75cb6c63365e95a0a7c5fd7fc0d0a2cfa4d7b"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "f3bbc6432e530e93571ebe3bbac27011ec777031925b81ff63a84d4b20c34193"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-init-flash-timer-disassembly.json",
+      "sha256": "80b4693dee23e222d1b56ccb4aa5f18a826e397a44ef774c5d3d3c8ed1c8b33a"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-init-flash-timer-disassembly.json",
+      "sha256": "2fa9a5461f7620edb6ff37c41298f734bcef414268a68edef6ff7ab4a9b524b3"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-init-flash-timer-disassembly.json",
+      "sha256": "783b671ec0fb53f51207ff29fa5d1297fd3b263bb6c524a44a8ea65553433636"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "f8c9a80e08b54a3e281880a9ac36efe8b2c7629daa552c677cd216436f9b6aab"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-init-flash-timer-disassembly.json",
+      "sha256": "9ddfd80f1ea1a2512fe71a1e1ec3b2c82eec599663461b87ca39de26516a0bd3"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "79134a7a221fde03118991ab3276c0b287cd98aee5b3b56fd8084ce3000b3d92"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-init-flash-timer-disassembly.json",
+      "sha256": "31114e03052ffbb0f8667618215bcd64323bf7087afc2d9bc0a9591e710565ed"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "97ba09804dc3689fcc045eccb9a7fceb0fa4ffdb9fe89b33ee93564529b773f2"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-init-flash-timer-disassembly.json",
+      "sha256": "e754782706cef282d53217ccc676111b08fa691789372fbf2631327e4ab1a699"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "5ce83ba564f495644de580d3c3a66d28ec76ed88a88d61cf798a209536765590"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-init-flash-timer-disassembly.json",
+      "sha256": "46410d3d106daf559f700804395de5c2e3829a39d89e421af3bceb0c68ef4163"
+    },
+    {
+      "path": "research/init-flash-timer-disassembly.md",
+      "sha256": "dd427b343db5c80d86a6d1f1a1c63f8e67bf2d9f11c7ed17182180100189c8c8"
+    },
+    {
+      "path": "tests/test_init_flash_timer_disassembly.py",
+      "sha256": "3a7ba4d86540626ff8faa911d6f777dcb1d3a4eb86d1eeb104fdd1952a5de4cd"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
