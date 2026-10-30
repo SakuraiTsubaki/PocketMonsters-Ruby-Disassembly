@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "rs",
+  "target": {
+    "release": "ruby-es-rev0",
+    "sha256": "b03c3d0230889a40615371bd616f02160dd1e33bb116659d72d98c27462c40d0",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/sqrt_vblank_stubs.s",
+  "source_sha256": "25fc3c3a7cf444b8efd114ac7de4b5ab25c974f523de8797a13bad010399373b",
+  "functions": {
+    "Sqrt": {
+      "rom_offset": 1987888,
+      "address": "0x081E5530",
+      "range_end_exclusive": "0x081E5534",
+      "length": 4,
+      "code_sha256": "de4a71d0d630472b454682d19fb9bad740be092c8543ac383d1aab54f492cff4",
+      "software_interrupt": 8,
+      "return": "bx lr",
+      "argument_register": "r0",
+      "result_register": "r0"
+    },
+    "VBlankIntrWait": {
+      "rom_offset": 1987892,
+      "address": "0x081E5534",
+      "range_end_exclusive": "0x081E553A",
+      "length": 6,
+      "code_sha256": "bf9fc420439437739d9c6b74b51fbe54a172af5a3d24fd499ba4acd0bc9c4050",
+      "temporary_register": "r2",
+      "temporary_value": 0,
+      "software_interrupt": 5,
+      "return": "bx lr"
+    }
+  },
+  "verified_layout": {
+    "adjacent": true,
+    "suite_length": 10,
+    "reset_suite_to_sqrt_delta": 28
+  },
+  "cross_reference": {
+    "reset_stubs_map": "analysis/ruby-es-rev0-reset-stubs.json",
+    "reset_stubs_map_sha256": "5226d61073233068604419e6bbfcf2c8b56aaa72446d5a702db5692ac06751ea"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}

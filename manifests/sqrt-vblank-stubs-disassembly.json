@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Ruby",
+  "functions": [
+    "Sqrt",
+    "VBlankIntrWait"
+  ],
+  "profile": "rs",
+  "origin_reference": "ruby-jp-rev0",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_sqrt_vblank_stubs.py",
+    "tool_sha256": "0db9d9d0414c978db443aafa77b5d3f0cf65d10e0c08bdd390a7bc507ff9cb8f"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "d2b802a0200db238798f95116279b2029d846eb44a772a58ba0546a831a5ed4b"
+    },
+    {
+      "path": "src/sqrt_vblank_stubs.s",
+      "sha256": "25fc3c3a7cf444b8efd114ac7de4b5ab25c974f523de8797a13bad010399373b"
+    },
+    {
+      "path": "analysis/sqrt-vblank-stubs-summary.json",
+      "sha256": "d0982f36577673332cd0253e76877cb7cdcfa82b928f68a4fb0ff6015dd3d4a3"
+    },
+    {
+      "path": "analysis/ruby-jp-rev0-sqrt-vblank-stubs.json",
+      "sha256": "016aa12879cc62a001923d0670e5a64be8923d961141a97f7b74962f9e195d48"
+    },
+    {
+      "path": "analysis/ruby-en-rev0-sqrt-vblank-stubs.json",
+      "sha256": "05a3bd4b2317f9fa47938aed59e6534a3b82fc6d6d96eafd762782092a581dfe"
+    },
+    {
+      "path": "analysis/ruby-en-rev1-sqrt-vblank-stubs.json",
+      "sha256": "ef7eebb7c439e4596904d3e3df7f96f05f1cc164985cd2cfe468439144852b55"
+    },
+    {
+      "path": "analysis/ruby-en-rev2-sqrt-vblank-stubs.json",
+      "sha256": "3c92043d26ce4b3046fad53903c12d09a2052e360b17de1a4f17c385733d0c3e"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-sqrt-vblank-stubs.json",
+      "sha256": "8a86f5b04bd7fe90681d1e86ebc21326d5a5ed020b5a7dc40a8603519a14103b"
+    },
+    {
+      "path": "analysis/ruby-de-rev1-sqrt-vblank-stubs.json",
+      "sha256": "954f2766dc084f861c99f9cc942a80b224ce034fd322822fcf6e2510fcd1d1e3"
+    },
+    {
+      "path": "analysis/ruby-fr-rev0-sqrt-vblank-stubs.json",
+      "sha256": "9d08c8e5baae16b2392a2483733587ed7896afcfe25250319f420bcbb81a6261"
+    },
+    {
+      "path": "analysis/ruby-fr-rev1-sqrt-vblank-stubs.json",
+      "sha256": "5ecf72247182d96857abe1d75d6ba495fb5111548c9d6bfafd202a313ae70336"
+    },
+    {
+      "path": "analysis/ruby-it-rev0-sqrt-vblank-stubs.json",
+      "sha256": "8c00852ad9ae7edc926cb15ad3fa2338f9b54ea2b00001fb2398ed7f8410f9da"
+    },
+    {
+      "path": "analysis/ruby-it-rev1-sqrt-vblank-stubs.json",
+      "sha256": "36ff30a1c0c888ce6b321b3c646ee216c3cd81db031bfacd7e98b848e141a5e1"
+    },
+    {
+      "path": "analysis/ruby-es-rev0-sqrt-vblank-stubs.json",
+      "sha256": "458dd22b9f5fa997cf8d23e16a9a95b511a71f9ab33260f04c79904c3c7cf8dd"
+    },
+    {
+      "path": "analysis/ruby-es-rev1-sqrt-vblank-stubs.json",
+      "sha256": "4c234f0c30f8974f7d6547a3c46f686d6f97afd7ec013738ce82f7449ac22f40"
+    },
+    {
+      "path": "research/sqrt-vblank-stubs-disassembly.md",
+      "sha256": "6bebdcda872a802fcad47cea34e9071d299cc4e7ca20e1ab9383722546745d00"
+    },
+    {
+      "path": "tests/test_sqrt_vblank_stubs_disassembly.py",
+      "sha256": "b30b3fded45261a9f1e605226369c360c2f99ead7fdaa6d52d29c35ed93eaf65"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
