@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Ruby",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "profile": "rs",
+  "origin_reference": "ruby-jp-rev0",
+  "release_count": 12,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_call_via_stubs.py",
+    "tool_sha256": "55f40cb2265a9ad4a6ff56ce228e331837b0d2b75936a973f03b0db0d326ea3b"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "d2b802a0200db238798f95116279b2029d846eb44a772a58ba0546a831a5ed4b"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-stubs-summary.json",
+      "sha256": "dd54e3b371484fe285e5da43ed5131b7a1085920038b058f7cb7d8d15f3ddbca"
+    },
+    {
+      "path": "analysis/ruby-jp-rev0-call-via-stubs.json",
+      "sha256": "7e3ba15c436af579a5fc605947eee69d5a7f543d34d19399afc1d79230dd08cc"
+    },
+    {
+      "path": "analysis/ruby-en-rev0-call-via-stubs.json",
+      "sha256": "a2f2fb1dd9a2631a496be69e497fa4b8fa62323918452682c02986ccfa066364"
+    },
+    {
+      "path": "analysis/ruby-en-rev1-call-via-stubs.json",
+      "sha256": "d4afe50806604425203073a04f922f38c4110e75286cee96b5b192a5dd85916d"
+    },
+    {
+      "path": "analysis/ruby-en-rev2-call-via-stubs.json",
+      "sha256": "8c8960afb3e964f3cdab0ccd3e0643824070e664708a7620402ac09513afd879"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-call-via-stubs.json",
+      "sha256": "3e9231ed7d3cdbb08ea1590bcfbc2358b67b85164377d90f00908e7d7894ceeb"
+    },
+    {
+      "path": "analysis/ruby-de-rev1-call-via-stubs.json",
+      "sha256": "7188ea062ea6e69653423fb9fff33920b0338ba57cf38b750e1ea2dcfe3de669"
+    },
+    {
+      "path": "analysis/ruby-fr-rev0-call-via-stubs.json",
+      "sha256": "b676f6d1ee1c0ce9266689cadf9699095ffabfa3c033120e0be629a40c344944"
+    },
+    {
+      "path": "analysis/ruby-fr-rev1-call-via-stubs.json",
+      "sha256": "c08170e0b0a50e9584912abe4fbf9246719dcc60a405f9fef46ca9e8b786ef7e"
+    },
+    {
+      "path": "analysis/ruby-it-rev0-call-via-stubs.json",
+      "sha256": "2b776e8ae4baeaa9e70e42f68fef17e5566111d3ac6d6a54b526813154ffb579"
+    },
+    {
+      "path": "analysis/ruby-it-rev1-call-via-stubs.json",
+      "sha256": "a6227f9d4966e7d65e6ce35bd5519ba0fc770a8c6030ec27d214147cef77bdb3"
+    },
+    {
+      "path": "analysis/ruby-es-rev0-call-via-stubs.json",
+      "sha256": "dcf45dc0c7a459ac34a7000e6e10c302472a92773f78b373e15049c7f8707ab3"
+    },
+    {
+      "path": "analysis/ruby-es-rev1-call-via-stubs.json",
+      "sha256": "0d80fe2edd0d89276a8a88f270b2eb484dbea29134f2d0ddd7d7cb90630ee75a"
+    },
+    {
+      "path": "research/call-via-stubs-disassembly.md",
+      "sha256": "5e5e0d680e6752e3ba5b75a6a5cbff3e92e7fe0644fd54d27448c7c3368fadeb"
+    },
+    {
+      "path": "tests/test_call_via_stubs_disassembly.py",
+      "sha256": "9a0a228865d87bf3ebbfdde59c19aefa0b71f37f91a0f366f0a8a28ee7d9b5ec"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
