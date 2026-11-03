@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Ruby",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "profile": "rs",
+  "origin_reference": "ruby-jp-rev0",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_arctan2_cpuset_stubs.py",
+    "tool_sha256": "011082c36dc18fbaeb8325934d07ef4a0342cc270c75b331bf94a000263f2df9"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "d2b802a0200db238798f95116279b2029d846eb44a772a58ba0546a831a5ed4b"
+    },
+    {
+      "path": "src/arctan2_cpuset_bios_stubs.s",
+      "sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814"
+    },
+    {
+      "path": "analysis/arctan2-cpuset-stubs-disassembly-summary.json",
+      "sha256": "3ab9908a8e7ff5e4359fa0547f3fef25dc8bc7baf04a8a6135783fbc9145ac23"
+    },
+    {
+      "path": "analysis/ruby-jp-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "4487b3a266d1ce9bd05a8d0ebaa586dc6cce7330d118b223cef98aa43e5b130d"
+    },
+    {
+      "path": "analysis/ruby-en-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "0e3a8f5b8dcbe3098d00fefd619b6496bb546d27bc607ce2d04193e4fe600a9d"
+    },
+    {
+      "path": "analysis/ruby-en-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "d4ea326a44422e7ee52a51d4d1777b8e45403e4e0bbd4a0955bebdbebb26e164"
+    },
+    {
+      "path": "analysis/ruby-en-rev2-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "69d886de59410098588160b2554a471543075d8a7b32bed990864c27d43dcdd6"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "77680cfc1a3013ad721d9573791313a467a1adf8ef557be604df7f234e2ca777"
+    },
+    {
+      "path": "analysis/ruby-de-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "4bf04b55d68263637f445d3cdcb01227f4a41c2bd550621dd270be35ffd58ae2"
+    },
+    {
+      "path": "analysis/ruby-fr-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "d659653ed189c029b956ade00bfa3bb362ec781d01dcac440098e622a5446765"
+    },
+    {
+      "path": "analysis/ruby-fr-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "f65cc1adee4f76aaee9c63de56a68e3576ff694cdf9755d79baad7a35b5d1076"
+    },
+    {
+      "path": "analysis/ruby-it-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "2904e5feb4062a3a2430e35106cee25c35a3a007b62c697a3d689db8cde7bd30"
+    },
+    {
+      "path": "analysis/ruby-it-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "747bc9078436f6ad961d3b7ef4f44937f2b7dd37d49f0db83a4d8a585c1a2006"
+    },
+    {
+      "path": "analysis/ruby-es-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "fe5ea2e8c028d508de012cd5300b86ac12594be59d76a8d8771772a89dd6b7c8"
+    },
+    {
+      "path": "analysis/ruby-es-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "b6dc9657abdbae06dddb3b2cdb3329c8f3d74c3ab200a0f44b77a08ec257110b"
+    },
+    {
+      "path": "research/arctan2-cpuset-stubs-disassembly.md",
+      "sha256": "23559b3209cebd387450ca6934a0753ca54685e493b145475d48a1dc50f59996"
+    },
+    {
+      "path": "tests/test_arctan2_cpuset_stubs_disassembly.py",
+      "sha256": "15b618ab58a27f631a2e738afb5c0ba35f20f8dffd2cbe2c36e5a773226788a1"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
