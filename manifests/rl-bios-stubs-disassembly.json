@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Ruby",
+  "library": "libagbsyscall",
+  "functions": [
+    "RLUnCompVram",
+    "RLUnCompWram"
+  ],
+  "profile": "rs",
+  "origin_reference": "ruby-jp-rev0",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_rl_bios_stubs.py",
+    "tool_sha256": "2945e85be58885e243bc1a50dc6d72cd49c40bc320a89ca4ff506ddc36edf5d5"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "d2b802a0200db238798f95116279b2029d846eb44a772a58ba0546a831a5ed4b"
+    },
+    {
+      "path": "src/rl_bios_stubs.s",
+      "sha256": "bf373181708d6a9eea10b8e04fe68026b65b57e9fd8d9a7cec78ec27922862af"
+    },
+    {
+      "path": "analysis/rl-bios-stubs-disassembly-summary.json",
+      "sha256": "2ff80b4dd12933e92b5c710fe1bf43e6a0930a704d73e2b146f0e65c5e83a784"
+    },
+    {
+      "path": "analysis/ruby-jp-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "f4ff4f2e4bc39b037f5f472e50b9eeb3d6ec445af59fdc8cd3dd10aeade210e4"
+    },
+    {
+      "path": "analysis/ruby-en-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "c49ef4ecec4949cfada7b8806861a057825f527440a94027c38a097815b450ff"
+    },
+    {
+      "path": "analysis/ruby-en-rev1-rl-bios-stubs-disassembly.json",
+      "sha256": "7777d661798510881deaa40d5be3fa9a07267c591c5ff85cb562f3c54cf9a48e"
+    },
+    {
+      "path": "analysis/ruby-en-rev2-rl-bios-stubs-disassembly.json",
+      "sha256": "05b61c71dfe12ac29f69da71c7b920089ee6fe2d9d476beccb1d8921b87bd8a0"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "89cd7bbcee983f1fef0cbfdf640263fd43bb629a6377aceebf8d5bd8f3fffa2e"
+    },
+    {
+      "path": "analysis/ruby-de-rev1-rl-bios-stubs-disassembly.json",
+      "sha256": "f46699fc1c6253d989addf80d6f29845b29d1d894ecbb845ba3f84208889c7b8"
+    },
+    {
+      "path": "analysis/ruby-fr-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "276d05aa114f0fd8901fb81c11853642bf1b210c8a94f0ed057a86d128d37b3d"
+    },
+    {
+      "path": "analysis/ruby-fr-rev1-rl-bios-stubs-disassembly.json",
+      "sha256": "a2feae2c18505e7df160d7a3280e9a9c72b038a309961dd44b61cba94e008f3f"
+    },
+    {
+      "path": "analysis/ruby-it-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "674108aa8180be935e42ac6203e43298f4d8ab8cfa374edee21fd31ab93d1f0b"
+    },
+    {
+      "path": "analysis/ruby-it-rev1-rl-bios-stubs-disassembly.json",
+      "sha256": "c0af6116d1fe9c84a08da5244fb893c4eb2fe9947b3a19d2e7c9423b9aee3e5c"
+    },
+    {
+      "path": "analysis/ruby-es-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "1f2fd9dcc1f8bc6468dff047f8ea9d0bbe46bbbfd858b7e002b95904ab072592"
+    },
+    {
+      "path": "analysis/ruby-es-rev1-rl-bios-stubs-disassembly.json",
+      "sha256": "bc16f053452e12179e5c175d9c823d7f2fc8d9d833cda3cfff41c7e8c857091d"
+    },
+    {
+      "path": "research/rl-bios-stubs-disassembly.md",
+      "sha256": "3b0a6811dd0f5dc5507c7a947d55859ce6abe9e5f855eefc3bff9e70529603d0"
+    },
+    {
+      "path": "tests/test_rl_bios_stubs_disassembly.py",
+      "sha256": "1d131770a9beff1b52f10d8facd35cb0f9c3ecd8d184986a1b5eca776bee985e"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
