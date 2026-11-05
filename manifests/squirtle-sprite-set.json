@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "species": {
+    "id": 7,
+    "name": "squirtle"
+  },
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_rse_species_sprites.py",
+    "tool_sha256": "cdf9d235ab405da8d0b89574fe0c2e58997d6e2987b9e97f73d6b99749aeda24"
+  },
+  "outputs": [
+    {
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "src/squirtle_species_sprite_tables.asm",
+      "sha256": "a1a038dd69aa2c88e683a1900ccf1636f221122e8fe45ddd9a9c500ca8ad6f6d"
+    },
+    {
+      "path": "analysis/squirtle-sprite-set-summary.json",
+      "sha256": "12f73961b790f9ad36d28e0e6093a2e6017fe8b8fb1a7f8630f70f707b93815e"
+    },
+    {
+      "path": "analysis/ruby-jp-rev0-squirtle-sprite-set.json",
+      "sha256": "3bda16a7433cb84ae740193d9dbccbd31494136277305a995b90995817a220e3"
+    },
+    {
+      "path": "analysis/ruby-en-rev0-squirtle-sprite-set.json",
+      "sha256": "648e52f038ffbfb29bf3b401c7dce245df325df9da0cf0f7c831e0e439a5e9a0"
+    },
+    {
+      "path": "analysis/ruby-en-rev1-squirtle-sprite-set.json",
+      "sha256": "7bb3709b429938c547a538c3400fbd8ec43f0c9e4baa5bbf159c95afeb0f28f0"
+    },
+    {
+      "path": "analysis/ruby-en-rev2-squirtle-sprite-set.json",
+      "sha256": "70527de17948bd95924ddda4e255f86d5f35ea02870badb09b880d3caf7b7167"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-debug-squirtle-sprite-set.json",
+      "sha256": "0d70623239692f94f51c3d26de1720e5b6c7ceca6b7970bb87930baab34f15ba"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-squirtle-sprite-set.json",
+      "sha256": "4a3f4ff1424144161a64ac481228a4efdb37aac70deef587e325ae9961a22068"
+    },
+    {
+      "path": "analysis/ruby-de-rev1-squirtle-sprite-set.json",
+      "sha256": "2b5b55cbbfcedf8a03d546a282f6146cbc3dfe8e0ec6e409cf6b41b505c5d1ab"
+    },
+    {
+      "path": "analysis/ruby-fr-rev0-squirtle-sprite-set.json",
+      "sha256": "58e152faf2e6b1b9d98e40a2dc5a093bdd7c16f6a75a397becfc0cf00385efaf"
+    },
+    {
+      "path": "analysis/ruby-fr-rev1-squirtle-sprite-set.json",
+      "sha256": "63db0549e0ce2ddbc1b35eb4c586a59a114ae5f9b8edefac1df9c1c0367b5b3c"
+    },
+    {
+      "path": "analysis/ruby-it-rev0-squirtle-sprite-set.json",
+      "sha256": "88fe6c4876258aed8edb602b4b532c32aedb24e41dd4413570eac9ce52698cb7"
+    },
+    {
+      "path": "analysis/ruby-it-rev1-squirtle-sprite-set.json",
+      "sha256": "a5d4f1f30220c2dbd08bbb19092729af0d53af858c74d757bc36207e52d995a6"
+    },
+    {
+      "path": "analysis/ruby-es-rev0-squirtle-sprite-set.json",
+      "sha256": "5718b5c893fedaf41846a652113f73d133040d452108d02981f7abdd9986efea"
+    },
+    {
+      "path": "analysis/ruby-es-rev1-squirtle-sprite-set.json",
+      "sha256": "1d352460c0c153e8fd977504ba5d2d10c3703b9aa7de50a16d46a9845cd2035b"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-jp.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-jp.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-jp.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-en.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-en.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-en.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-en.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-en.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-en.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev2-en.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev2-en.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev2-en.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-debug-de.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-debug-de.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-debug-de.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-de.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-de.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-de.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-de.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-de.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-de.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-fr.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-fr.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-fr.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-fr.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-fr.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-fr.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-it.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-it.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-it.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-it.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-it.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-it.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-es.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-es.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-es.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-es.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-es.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-es.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "research/squirtle-sprite-set.md",
+      "sha256": "ecbc7df091e9a154cadb9af9c144adcf649264373217b3510eda8730f2a97fd8"
+    },
+    {
+      "path": "tests/test_squirtle_sprite_set.py",
+      "sha256": "f9bb45a90c809891ecf5bdabfc1aa5c239815842ee7185ac4498c00deaa4864a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
