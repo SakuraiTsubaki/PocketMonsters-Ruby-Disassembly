@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "species": {
+    "id": 8,
+    "name": "wartortle"
+  },
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_rse_species_sprites.py",
+    "tool_sha256": "cdf9d235ab405da8d0b89574fe0c2e58997d6e2987b9e97f73d6b99749aeda24"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-Ruby-Disassembly/analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "src/wartortle_species_sprite_tables.asm",
+      "sha256": "cd99b64d00e204c90c5f9cace6c3c242abdc6893198c2ee88898550f59ccdd80"
+    },
+    {
+      "path": "analysis/wartortle-sprite-set-summary.json",
+      "sha256": "a82f51dae2d89c7824a85ff0d3329f95d207313bfc7f5257d54f8e88aebef14f"
+    },
+    {
+      "path": "analysis/ruby-jp-rev0-wartortle-sprite-set.json",
+      "sha256": "dac0bc51e43d75b562533c678a1020ccf3acd7e67db696e58ff10beb396746c0"
+    },
+    {
+      "path": "analysis/ruby-en-rev0-wartortle-sprite-set.json",
+      "sha256": "74c4d4dfa4f72938635429cd25c565ee48ec3fc969f79567b35dc1832e9f42d7"
+    },
+    {
+      "path": "analysis/ruby-en-rev1-wartortle-sprite-set.json",
+      "sha256": "674326b4048e99a1a1e6d5fd9b37e31233aa8e4a19f58f2f9be8db42441b9324"
+    },
+    {
+      "path": "analysis/ruby-en-rev2-wartortle-sprite-set.json",
+      "sha256": "3f8b2646a158023332f295821a52a0633f58e93feb2f7aee87986da25d8d16ec"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-debug-wartortle-sprite-set.json",
+      "sha256": "9faae446733ec5cc2a7afc369bcc62c89513539b1c345fad4e7b2bc21fbf30b5"
+    },
+    {
+      "path": "analysis/ruby-de-rev0-wartortle-sprite-set.json",
+      "sha256": "242e58a041543f48934628d92fc13e87e9324b4c3259020b31326e0ac2d8903c"
+    },
+    {
+      "path": "analysis/ruby-de-rev1-wartortle-sprite-set.json",
+      "sha256": "45a84cb0c405e5420c397d9309782292d31c33e0a88505074547f1de383d686a"
+    },
+    {
+      "path": "analysis/ruby-fr-rev0-wartortle-sprite-set.json",
+      "sha256": "8c6a33a6202b9af99f0d799befe3dadd1a7c1fa0097c3862d5752bcb675a039f"
+    },
+    {
+      "path": "analysis/ruby-fr-rev1-wartortle-sprite-set.json",
+      "sha256": "40bd20e2d5b3cd456e47eedc27a11e7743c428a8c4ea741255336041d1ee7e63"
+    },
+    {
+      "path": "analysis/ruby-it-rev0-wartortle-sprite-set.json",
+      "sha256": "fb3e67b67d67e732631413862e50313971f37f968c5546c22192fc2f36272176"
+    },
+    {
+      "path": "analysis/ruby-it-rev1-wartortle-sprite-set.json",
+      "sha256": "aad2cc82489b8e798b01ead49495988204169f42689d02448a9001c05be97f07"
+    },
+    {
+      "path": "analysis/ruby-es-rev0-wartortle-sprite-set.json",
+      "sha256": "c9a7b79278abdcb0319e9374472b17654ae911036f0a062fc3d41b4044abf985"
+    },
+    {
+      "path": "analysis/ruby-es-rev1-wartortle-sprite-set.json",
+      "sha256": "f416752c29cd66072a283bb711ef437e06c19e898c91d03d2cfb2f69d36e4a44"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev0-jp.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev0-jp.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev0-jp.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev0-en.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev0-en.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev0-en.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev1-en.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev1-en.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev1-en.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev2-en.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev2-en.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev2-en.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev0-debug-de.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev0-debug-de.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev0-debug-de.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev0-de.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev0-de.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev0-de.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev1-de.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev1-de.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev1-de.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev0-fr.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev0-fr.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev0-fr.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev1-fr.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev1-fr.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev1-fr.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev0-it.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev0-it.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev0-it.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev1-it.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev1-it.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev1-it.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev0-es.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev0-es.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev0-es.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev1-es.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-rev1-es.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev1-es.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694"
+    },
+    {
+      "path": "research/wartortle-sprite-set.md",
+      "sha256": "3be61676a07aa06216a035b45967a6e01636c0cb111842c3150e0c064ec5ef47"
+    },
+    {
+      "path": "tests/test_wartortle_sprite_set.py",
+      "sha256": "91baa2d4d6651e701c1cd72901d6879401d1e8c57e0aa0fdcf2d2791d0654c4a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
