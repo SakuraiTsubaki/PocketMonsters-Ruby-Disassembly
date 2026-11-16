@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Ruby",
+  "functions": [
+    "PlayTimeCounter_Reset",
+    "PlayTimeCounter_Start",
+    "PlayTimeCounter_Stop",
+    "PlayTimeCounter_Update",
+    "PlayTimeCounter_SetToMax"
+  ],
+  "profile": "rs",
+  "storage_profile": "direct",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "source": "src/play_time_counter.s",
+  "releases": [
+    {
+      "id": "axv-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "origin_reference": true,
+      "cluster_address": "0x0804FE9C",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x0804FE9C",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x0804FEBC",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x0804FEE4",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x0804FEF0",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x0804FF50",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-j-rev0-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e",
+      "origin_reference": false,
+      "cluster_address": "0x08052C28",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08052C28",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08052C48",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x08052C70",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x08052C7C",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x08052CDC",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-e-rev0-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0",
+      "origin_reference": false,
+      "cluster_address": "0x08052C48",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08052C48",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08052C68",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x08052C90",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x08052C9C",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x08052CFC",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-e-rev1-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c",
+      "origin_reference": false,
+      "cluster_address": "0x08052C48",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08052C48",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08052C68",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x08052C90",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x08052C9C",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x08052CFC",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-e-rev2-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-d-rev0-debug",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "debug",
+      "sha256": "548e9db988d387f8876a0aa40ea1ecb6f1110a8a550413e1861c9656fff7427a",
+      "origin_reference": false,
+      "cluster_address": "0x08057158",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08057158",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08057178",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x080571A0",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x080571AC",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x0805720C",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-d-rev0-debug-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "22b28a91be484178236d7f39d64210205698b417394913e089b47796c998fa75",
+      "origin_reference": false,
+      "cluster_address": "0x08052F68",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08052F68",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08052F88",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x08052FB0",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x08052FBC",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x0805301C",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-d-rev0-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e0b620d576bc503e083bb9d2af1f5ffc40127b84e6ca734e3c45534d0d008043",
+      "origin_reference": false,
+      "cluster_address": "0x08052F68",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08052F68",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08052F88",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x08052FB0",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x08052FBC",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x0805301C",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-d-rev1-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "160185eb928c649b0bb5cfbda6d3cb5239b474b69c0a6b61d939bbfd546177f7",
+      "origin_reference": false,
+      "cluster_address": "0x08053054",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08053054",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08053074",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x0805309C",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x080530A8",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x08053108",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-f-rev0-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "9678645ca67932a42c92b1d6bac118925a6be9f67135ae8fe7747df85cdabdd0",
+      "origin_reference": false,
+      "cluster_address": "0x08053054",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08053054",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08053074",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x0805309C",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x080530A8",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x08053108",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-f-rev1-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "61844250fc2766dbab163c84e277c50e3a0b35d6f2defb491a2d38def0ef2ab7",
+      "origin_reference": false,
+      "cluster_address": "0x08052F7C",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08052F7C",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08052F9C",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x08052FC4",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x08052FD0",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x08053030",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-i-rev0-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "be116b6fa8d8c12d7ccff3faefd5defd886faa427ff2c85c06d245cbe4e531b2",
+      "origin_reference": false,
+      "cluster_address": "0x08052F7C",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08052F7C",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08052F9C",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x08052FC4",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x08052FD0",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x08053030",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-i-rev1-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b03c3d0230889a40615371bd616f02160dd1e33bb116659d72d98c27462c40d0",
+      "origin_reference": false,
+      "cluster_address": "0x08053064",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08053064",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08053084",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x080530AC",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x080530B8",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x08053118",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-s-rev0-retail-play-time-counter-disassembly.json"
+    },
+    {
+      "id": "axv-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0db39958c19abcedc7670fb16fd3274a5b205df794eb7491bea0580aa752e095",
+      "origin_reference": false,
+      "cluster_address": "0x08053064",
+      "functions": [
+        {
+          "name": "PlayTimeCounter_Reset",
+          "address": "0x08053064",
+          "code_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781"
+        },
+        {
+          "name": "PlayTimeCounter_Start",
+          "address": "0x08053084",
+          "code_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe"
+        },
+        {
+          "name": "PlayTimeCounter_Stop",
+          "address": "0x080530AC",
+          "code_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699"
+        },
+        {
+          "name": "PlayTimeCounter_Update",
+          "address": "0x080530B8",
+          "code_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf"
+        },
+        {
+          "name": "PlayTimeCounter_SetToMax",
+          "address": "0x08053118",
+          "code_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33"
+        }
+      ],
+      "evidence": "analysis/axv-s-rev1-retail-play-time-counter-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
