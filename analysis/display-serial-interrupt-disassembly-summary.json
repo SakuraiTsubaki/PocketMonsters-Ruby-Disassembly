@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Ruby",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "source": "src/display_serial_interrupts.s",
+  "releases": [
+    {
+      "id": "axv-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "origin_reference": true,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000604",
+          "code_sha256": "5bacc23365c4477c4daed7a4d60466236f77842159ea21b9eab48422a7d0a8af"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000634",
+          "code_sha256": "551fe46154886df1307e004679de4480bca5116b01a6d11792ea0a62faa8471f"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000664",
+          "code_sha256": "0a073e8d90424ca5bfdc5b5cb0d1bfe7b7dd016cb7775a95dfbae4369ea6c2f3"
+        }
+      ],
+      "evidence": "analysis/axv-j-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000600",
+          "code_sha256": "0ca32c4693900b756d6ba68e0927310fb97c25e77f754cb44a6267f8223af090"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000630",
+          "code_sha256": "47a966ad7ec3d14fcc9044659a4738e716b1b77f8743e9f25ad619a4452814d0"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000660",
+          "code_sha256": "3229e533162aa0725b18c6d22dd3cd07d51a877f1762337b47762ee7d1899ef6"
+        }
+      ],
+      "evidence": "analysis/axv-e-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000600",
+          "code_sha256": "9631c5dc2868653b8b23eed6a7b819dfc349db2c768527e66e59783bcb7554db"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000630",
+          "code_sha256": "4d1457247bfa89ec4875e47872924e21a3bd650a36553c84ec417a810bd45bda"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000660",
+          "code_sha256": "253582ae5682d3a05fd5bf46fdd8e9e3a9470c2377d90a1ff8179cc65d56da67"
+        }
+      ],
+      "evidence": "analysis/axv-e-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000600",
+          "code_sha256": "9631c5dc2868653b8b23eed6a7b819dfc349db2c768527e66e59783bcb7554db"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000630",
+          "code_sha256": "4d1457247bfa89ec4875e47872924e21a3bd650a36553c84ec417a810bd45bda"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000660",
+          "code_sha256": "253582ae5682d3a05fd5bf46fdd8e9e3a9470c2377d90a1ff8179cc65d56da67"
+        }
+      ],
+      "evidence": "analysis/axv-e-rev2-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-d-rev0-debug",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "debug",
+      "sha256": "548e9db988d387f8876a0aa40ea1ecb6f1110a8a550413e1861c9656fff7427a",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "9c11244d7a62d78ff9915266466a421ceefcdc4c24870c2376fc977763cbd558"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "fe0f7ccf753800a8af1cb5e0ebb0e98fe03d619261e03e54940e6af162792200"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "64992b7f0320f809e522173dfe1024f26f5fe381f1b81b3e6982594a49aef0bf"
+        }
+      ],
+      "evidence": "analysis/axv-d-rev0-debug-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "22b28a91be484178236d7f39d64210205698b417394913e089b47796c998fa75",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "7ff1ac2d6ed1e2fa1bda470447b0f46833656315cb9f0339391908ebf923dd14"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "4cee170ec051a643f6436385554312d3bac8de4e1dfbd3d1a323f228eac619e4"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "b5d47fbe904f47a7d444556c861513a9dc812ad5580aadd9c8cfa43a70a3bad4"
+        }
+      ],
+      "evidence": "analysis/axv-d-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e0b620d576bc503e083bb9d2af1f5ffc40127b84e6ca734e3c45534d0d008043",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "7ff1ac2d6ed1e2fa1bda470447b0f46833656315cb9f0339391908ebf923dd14"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "4cee170ec051a643f6436385554312d3bac8de4e1dfbd3d1a323f228eac619e4"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "b5d47fbe904f47a7d444556c861513a9dc812ad5580aadd9c8cfa43a70a3bad4"
+        }
+      ],
+      "evidence": "analysis/axv-d-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "160185eb928c649b0bb5cfbda6d3cb5239b474b69c0a6b61d939bbfd546177f7",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "255bb8590bfcedb51226601ca1b2c73a909f8be2fac9868299542c76c62c3d37"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "71620eb81175cfe5db91c85062fd8cc9e5441b9158d5dd7aeb50a86886a8f401"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "956683808da7931ef84b1e6b0f692bfa8581869600fd2fd1e888f467f87750c2"
+        }
+      ],
+      "evidence": "analysis/axv-f-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "9678645ca67932a42c92b1d6bac118925a6be9f67135ae8fe7747df85cdabdd0",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "255bb8590bfcedb51226601ca1b2c73a909f8be2fac9868299542c76c62c3d37"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "71620eb81175cfe5db91c85062fd8cc9e5441b9158d5dd7aeb50a86886a8f401"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "956683808da7931ef84b1e6b0f692bfa8581869600fd2fd1e888f467f87750c2"
+        }
+      ],
+      "evidence": "analysis/axv-f-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "61844250fc2766dbab163c84e277c50e3a0b35d6f2defb491a2d38def0ef2ab7",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "f4250809f32c3d1429b9fc0c523aab2bb47d724eb320a0d803aa7e38923ea3e8"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "9455edb7c76e2d4d42ad727c39e7774eb48d086034837703cde0d9571783b5a8"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "55d0c74ef10ae29e1449983922423096358c06d6b558f49fe88ade30d42f04cb"
+        }
+      ],
+      "evidence": "analysis/axv-i-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "be116b6fa8d8c12d7ccff3faefd5defd886faa427ff2c85c06d245cbe4e531b2",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "f4250809f32c3d1429b9fc0c523aab2bb47d724eb320a0d803aa7e38923ea3e8"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "9455edb7c76e2d4d42ad727c39e7774eb48d086034837703cde0d9571783b5a8"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "55d0c74ef10ae29e1449983922423096358c06d6b558f49fe88ade30d42f04cb"
+        }
+      ],
+      "evidence": "analysis/axv-i-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b03c3d0230889a40615371bd616f02160dd1e33bb116659d72d98c27462c40d0",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "4ccbafb696862ea977adba58887937628d44dcf77084bb96cce87459bc6f385e"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "66978f89a73ad03a48cdf068ee8c7ea6d1efe976500bbdaa47656b58f56f2136"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "b6df42c6e46a23a07019ffda8ac694b8606c66d12073595d2fdf477d10b5c2aa"
+        }
+      ],
+      "evidence": "analysis/axv-s-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axv-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0db39958c19abcedc7670fb16fd3274a5b205df794eb7491bea0580aa752e095",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "4ccbafb696862ea977adba58887937628d44dcf77084bb96cce87459bc6f385e"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "66978f89a73ad03a48cdf068ee8c7ea6d1efe976500bbdaa47656b58f56f2136"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "b6df42c6e46a23a07019ffda8ac694b8606c66d12073595d2fdf477d10b5c2aa"
+        }
+      ],
+      "evidence": "analysis/axv-s-rev1-retail-display-serial-interrupt-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
