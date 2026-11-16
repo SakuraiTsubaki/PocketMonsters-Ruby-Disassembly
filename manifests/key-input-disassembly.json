@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Ruby",
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "family_profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_key_input.py",
+    "tool_sha256": "fda087b4e19eae4cef148639bffa19ae26d650316346bf8e67bc6b5e32b838bd"
+  },
+  "outputs": [
+    {
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "src/key_input.s",
+      "sha256": "206abeb4b679256df72f6a32643236a2d4a7704bc303e36a3a2a29a3a9c75e80"
+    },
+    {
+      "path": "analysis/key-input-disassembly-summary.json",
+      "sha256": "b17806da259733e940403705cdeffcf714d49e6677dc1c4040d31a43c3e68457"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-key-input-disassembly.json",
+      "sha256": "a50159b26d1c8d4884fed4d0aa18c611c05906c25737de814822ced71c3972f3"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-key-input-disassembly.json",
+      "sha256": "62f3943878cffa211d01e9f89dbe68e943832409e8d246955c3e86e02fc7cfff"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-key-input-disassembly.json",
+      "sha256": "7436f0c0278ebfb3ba0f8a31384fe269eca679ae55866dfc118a6cf582702f28"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-key-input-disassembly.json",
+      "sha256": "37f37df085fd9645e088439b12dd9b074d45cc57c746af3679bbba8aa41fb26b"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-key-input-disassembly.json",
+      "sha256": "4f1c3bdeef62202b598cb62c6e10a494e0d149a02dcf776f847ec7996931615e"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-key-input-disassembly.json",
+      "sha256": "1384024006e6131b6ae29f6ba5ac7239709b2efb1c28316a888f4c01c51417cb"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-key-input-disassembly.json",
+      "sha256": "fefd69a32b01ae2fb9236096e46c3598e946be10317005166f2ca83bb0d0567d"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-key-input-disassembly.json",
+      "sha256": "d72b45858d0949b38be79d0a51b6547fd9a6c45396d8e8b27ad57cc973118def"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-key-input-disassembly.json",
+      "sha256": "53bf4f8187565c1c4ad692883cdaf3ae08aa780f13c0dde092a7150cd71c7b8c"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-key-input-disassembly.json",
+      "sha256": "80aa2b77fe52770b7f54f44f4b198cb828f7c2cf547a7bca1ec36543998c6baa"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-key-input-disassembly.json",
+      "sha256": "d2f94582bb70c9bdf1b8beaa5e77b07556fdfe06d9560db433486858be9d42ec"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-key-input-disassembly.json",
+      "sha256": "ba7707edb171f0788ece233729f7d0aff7032aa5e1146028268b80081de7a17a"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-key-input-disassembly.json",
+      "sha256": "3728ad305ed2523f592018d216f44e092b02982f74f5e9d5b0b71143b98a5f41"
+    },
+    {
+      "path": "research/key-input-disassembly.md",
+      "sha256": "de142886339f5574f1033e76a09220b97aa22306f081eedf7917bffdec89ca97"
+    },
+    {
+      "path": "tests/test_key_input_disassembly.py",
+      "sha256": "91ab3fcacd1ae7739997605a35f9f325b837b050a851a1440f777a8d5ad14195"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
