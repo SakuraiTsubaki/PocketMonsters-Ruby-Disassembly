@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Ruby",
+  "profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_wait_for_vblank.py",
+    "tool_sha256": "30ae62915ac8fdabfc126b45b1481246635cef334a9f1ba2af315487d1b05964"
+  },
+  "outputs": [
+    {
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    },
+    {
+      "path": "src/wait_for_vblank.s",
+      "sha256": "d2a0e4f32a9dbd398230f1690a29d64a4a3b6bbc151e79af426af3c9d0f7ee6b"
+    },
+    {
+      "path": "analysis/wait-for-vblank-disassembly-summary.json",
+      "sha256": "97413a1f804a83fc5de0a391b8b29ac9a2977515417f4593be89104c54c5ba7d"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "f91f987c8650cd86d455ea1734e770353cf14f502f8299937b13c05b70bc61f8"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "ca63f213eebf956d3dec71458f82e604197a8e36bbff16062786389bd280d443"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "635411caf55cea6f94bc2f46ef455572d0e9cb11d04ea3e59d46931683cada8b"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-wait-for-vblank-disassembly.json",
+      "sha256": "bb2c443305d484726d50d9dbd629d34cdef3d81bfe46ca2cdb5207fea9da7815"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-wait-for-vblank-disassembly.json",
+      "sha256": "578bd0b92082ff6392f8c456474efabd8379ee102003b558c711c2bdaea0a909"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "ca6971b24ca563d830682c8117802cdc088c93bcd2053ccded6e646c165786d4"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "e6efe8b378c5ae001d56544acf79f15a264331553e65b7cf403ebd23ed7fbbf3"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "83c8ad082d1fb20cbe756c9b8f1cbb1774ec6a6c113d63d347c38442cfc8c62a"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "79a731dc1348647712588e1c02af56deddedbaaad2c13d576e1144e34b0d3cfa"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "e40c91db53e60428cbe20bbfda69fcd8267ea60ba7545c715ddf6e8c06951325"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "79e7200527c0d9443b9353242554a95b0a6a7c4ee8d7f93dbd8f22afd2419630"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "091370a96e5f3fdaaf3f232a702faba6fb73297b1645bcde5395bca93071e500"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "78e0c6d870280752b14b0a2282719b58c0cf973374f404f2e55f496ab825d258"
+    },
+    {
+      "path": "research/wait-for-vblank-disassembly.md",
+      "sha256": "1507ca4efa24ca892b61c3c25a0d0d4e8a6bc0015edeca4a7fc0683483a914ba"
+    },
+    {
+      "path": "tests/test_wait_for_vblank_disassembly.py",
+      "sha256": "f8a265d2c4a1190a2d4694cca533cbab3355a35279fcc4b63fec6d47e34c277a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
